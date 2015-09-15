@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Поисковые плагины и Настройки">
+<!ENTITY wspro.menuitem.options "Поисковые плагины и Настройки">
+<!ENTITY wspro.menuitem.qts "Быстрый поиск">
+<!ENTITY wspro.menuitem.qts.tooltip "Открывать Быстрый поиск в всплывающем окне">
+<!ENTITY wspro.menuitem.qts.accesskey "Б">
+<!ENTITY mmsearch.settings.free.name "Имя:">
+<!ENTITY mmsearch.settings.free.url "Адрес:">
+<!ENTITY mmsearch.settings.free.type "Тип:">
+<!ENTITY mmsearch.settings.free.type.music "Музыка">
+<!ENTITY mmsearch.settings.free.type.movies "Видео">
+<!ENTITY mmsearch.settings.free.type.other "Другое">
+<!ENTITY mmsearch.settings.free.type.computer "Компьютеры/Технологии">
+<!ENTITY mmsearch.settings.free.type.education "Образование">
+<!ENTITY mmsearch.settings.free.type.news "Новости">
+<!ENTITY mmsearch.settings.free.type.reference "Справка/Словари">
+<!ENTITY mmsearch.settings.free.type.shopping "Покупки">
+<!ENTITY mmsearch.settings.free.type.business "Бизнес">
+<!ENTITY mmsearch.search "Поиск">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Предложить поисковый плагин">
+<!ENTITY mmsearch.settings.free.available.private "Добавить свой плагин">
+<!ENTITY mmsearch.settings.free.available.loading "Загружается...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Показать Поисковые плагины">
+<!ENTITY wspro.settings.general "Общие">
+<!ENTITY wspro.settings.general.search "Настройки поиска">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Очищать панель поиска после каждого запроса">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Открыть дубликат результата поиска Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Начинать поиск при переключении поискового плагина в панели поиска">
+<!ENTITY wspro.settings.general.search.searchondrop "Начинать поиск при перетаскивании и вставке текста в Web Search Pro панель инструментов">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Используйте раскрывающееся окно быстрого поиска панели инструментов при нажатии горячих клавиш">
+<!ENTITY wspro.settings.general.search.results "Результаты поиска">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Открывать результаты поиска в новой вкладки">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Загружать результаты поиска Web Search Pro на переднем плане">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Открывать результаты поиска в новой вкладке при поиске из контекстного меню">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Открывать результаты поиска в новой вкладке при использовании Drag &amp; Drop зон">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Открывать результаты поиска в новой вкладке при использовании быстрого поиска">
+<!ENTITY wspro.settings.general.display.other "Показать другие настройки">
+<!ENTITY wspro.settings.general.display.hide "Скрыть пункты (для некоторых из них потребуется перезагрузка браузера)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Не показывать поисковую панель Firefox установленную по умолчанию (для восстановления настройте вашу панель инструментов)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Не показывать Web Search Pro в меню ''Инструменты''">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Не показывать Web Search Pro в контекстном меню">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Скрывать Web Search Pro в статусной строке">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Не показывать кнопку изменения размера панели инструментов Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Не показывать группы поисковых плагинов Web Search Pro по умолчанию (только пустые группы)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Скрывать метку текущего поиска в панели инструментов">
+<!ENTITY wspro.settings.general.display.autosort "Автоматически сортировать поисковые плагины по алфавиту">
+<!ENTITY wspro.settings.general.display.relabeltabs "Показывать мои поисковые запросы в виде вкладок в Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Как Вы хотите, чтобы отображались ваши поисковые плагины?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Просто список выбранных мной плагинов">
+<!ENTITY wspro.settings.general.display.menustyle.group "Группировать, подменю для каждого типа поисковых плагиновй">
+<!ENTITY wspro.settings.general.display.menustyle.list "Отдельный список, просто список, но с заголовком для каждого поискового плагина">
+<!ENTITY wspro.settings.general.display.googlesuggest "Используйте Google для поиска сделанных предложений по мере набора текста">
+<!ENTITY wspro.settings.general.connection "Настройки соединения">
+<!ENTITY wspro.settings.general.connection.autoupdate "Автоматически обновлять используемые поисковые плагины каждые 14 дней">
+<!ENTITY wspro.settings.general.export "Экспорт настроек">
+<!ENTITY wspro.settings.general.import "Импорт настроек">
+<!ENTITY wspro.settings.general.defaultse "Поисковый плагин по умолчанию">
+<!ENTITY wspro.settings.general.defaultse.info "После выполнения поискового запроса переключаться на этот поисковый плагин">
+<!ENTITY wspro.settings.display "Отображение">
+<!ENTITY wspro.settings.dropzones "Зона Drag &amp; Drop">
+<!ENTITY wspro.settings.dropzones.usedropzones "Использовать зону Drag &amp; Drop">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Показать зону Drop не имеющую выбранного поискового плагина">
+<!ENTITY wspro.settings.dropzones.color "Цвет">
+<!ENTITY wspro.settings.dropzones.trailstyle "Стиль следа">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Затухание">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Отдельный">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Ничего">
+<!ENTITY wspro.settings.dropzones.assign "Выбрать поисковые плагины для зоны Drag &amp; Drop">
+<!ENTITY wspro.settings.searchengines "Поисковые плагины">
+<!ENTITY wspro.settings.searchengines.selected "Выбрать поисковые плагины">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Нажмите для редактирования деталей выбранного поискового плагина">
+<!ENTITY wspro.settings.searchengines.selected.remove "Щелкните для удаления этого поискового плагина">
+<!ENTITY wspro.settings.searchengines.selected.report "Щелкните для отправки сообщения Captain Caveman о том, что этот плагин не работает">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Щелкните для сортировки поисковых плагинов по возрастанию">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Щелкните для сортировки поисковых плагинов по убыванию">
+<!ENTITY wspro.settings.searchengines.selected.update "Щелкните для обновления выбранного поискового плагина">
+<!ENTITY wspro.tools.accesskey "с">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Введите поисковый запрос в панель поиска и нажмите Поиск">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Вкл или Выкл Переключение Drag &amp; DropZones">
+<!ENTITY wspro.searchall.movie.tooltip "Искать на выбранныx сайтах о кино">
+<!ENTITY wspro.searchall.music.tooltip "Искать на выбранных музыкальных сайтах">
+<!ENTITY wspro.searchall.other.tooltip "Искать на других выбранных сайтах">
+<!ENTITY wspro.searchall.computer.tooltip "Искать на выбранных сайтах Компьютеры/Технологии">
+<!ENTITY wspro.searchall.education.tooltip "Искать на выбранных Образовательных сайтах">
+<!ENTITY wspro.searchall.news.tooltip "Искать на выбранных Новостных сайтах">
+<!ENTITY wspro.searchall.reference.tooltip "Искать на выбранных сайтах Справка/Словари">
+<!ENTITY wspro.searchall.shopping.tooltip "Искать на выбранных сайтах Магазинов">
+<!ENTITY wspro.searchall.business.tooltip "Искать выбранное на бизнес сайтах">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Иконка">
+<!ENTITY wspro.searchengine.shortcut "Горячие клавиши">
+<!ENTITY wspro.searchengine.browse "Обзор">
+<!ENTITY wspro.searchengine.dropzones.info "Зона Drag &amp; Drop - это зона в окне вашего браузера, где Вы можете просто сдвинуть выделенный текст, чтобы начать поиск. Вы можете выбрать столько зон, сколько Вам необходимо.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Ниже задайте ваши DropZones отмеченные красной пунктирной линией и автоматически использьзуйте больше или меньше DropZones. Вы можете выбрать 16, 36 или 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Предложения для Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Редактировать этот Поисковый плагин...">
+<!ENTITY wspro.context.removesearchengine "Удалить этот Поисковый плагин">
+<!ENTITY wspro.settings.searchenginegroups "Группы поисковых плагинов">
+<!ENTITY wspro.settings.searchenginegroups.edit "Изменить эту группу поисковых плагинов">
+<!ENTITY wspro.settings.searchenginegroups.remove "Удалить эту группу поисковых плагинов">
+<!ENTITY wspro.settings.searchenginegroups.add "Добавить новую группу поисковых плагинов">
+<!ENTITY wspro.settings.searchengines.getengines "Получить еще поисковые плагины">
+<!ENTITY wspro-qts-title "Web Search Pro - быстрый поиск">
+<!ENTITY wspro-qts-searchengine "Использовать поиск">
+<!ENTITY wspro-qts-searchtext "Поиск">
+<!ENTITY wspro.settings.qts.color "Цвет фона раскрывающегося окна быстрого поиска">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Добавить как частный поисковый плагин...">
+<!ENTITY wspro.qts.search "Поиск">
+<!ENTITY wspro.qts.search.accesskey "П">
+<!ENTITY wspro.qts.clear "Очистить">
+<!ENTITY wspro.qts.clear.accesskey "О">

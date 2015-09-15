@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - 搜索引擎&amp;常规设置">
+<!ENTITY wspro.menuitem.options "搜索引擎&amp;常规设置">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "打开 Quick Type Search 弹出窗口">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "名称：">
+<!ENTITY mmsearch.settings.free.url "地址：">
+<!ENTITY mmsearch.settings.free.type "类型：">
+<!ENTITY mmsearch.settings.free.type.music "音乐">
+<!ENTITY mmsearch.settings.free.type.movies "电影">
+<!ENTITY mmsearch.settings.free.type.other "其他">
+<!ENTITY mmsearch.settings.free.type.computer "计算机/技术">
+<!ENTITY mmsearch.settings.free.type.education "教育">
+<!ENTITY mmsearch.settings.free.type.news "新闻">
+<!ENTITY mmsearch.settings.free.type.reference "参考书/词典">
+<!ENTITY mmsearch.settings.free.type.shopping "购物">
+<!ENTITY mmsearch.settings.free.type.business "商业">
+<!ENTITY mmsearch.search "搜索">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "提交一个搜索引擎">
+<!ENTITY mmsearch.settings.free.available.private "添加一个个人搜索引擎">
+<!ENTITY mmsearch.settings.free.available.loading "载入中...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "显示搜索引擎">
+<!ENTITY wspro.settings.general "常规设置">
+<!ENTITY wspro.settings.general.search "搜索">
+<!ENTITY wspro.settings.general.search.clearsearchbox "点击搜索按钮后自动清空搜索框内容">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "重复使用由 Web Search Pro 打开的标签页">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "当你在工具栏上切换到另一个搜索引擎时自动开始搜索">
+<!ENTITY wspro.settings.general.search.searchondrop "在你将文字拖到 Web Search Pro 工具栏或者粘贴文字时，自动开始搜索">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "当点击快捷方式时，使用弹出搜索框而不是搜索工具栏进行搜索">
+<!ENTITY wspro.settings.general.search.results "搜索结果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "在新标签页打开搜索页面">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "在前台打开标签页">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "使用右键菜单时在新标签页打开搜索结果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "使用 Drag &amp; Dropzones 时在新标签页中打开搜索结果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "使用 Quick Type Search 时在新标签页中打开搜索结果">
+<!ENTITY wspro.settings.general.display.other "其他显示选项">
+<!ENTITY wspro.settings.general.display.hide "隐藏项目(隐藏那些可能需要您重新您的浏览器的项目)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "隐藏 Firefox 自带的网页搜索(可以通过配置您的 Firefox 工具栏将其恢复)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "隐藏 Web Search Pro 工具栏菜单">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "隐藏 Web Search Pro 右键菜单">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "隐藏 Web Search Pro 状态栏项">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "隐藏 Web Search Pro 工具条的拖动">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "隐藏 Web Search Pro 默认搜索引擎组(只隐藏空的组)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "隐藏工具栏中当前搜索引擎的标签">
+<!ENTITY wspro.settings.general.display.autosort "自动按照字母表排序搜索引擎">
+<!ENTITY wspro.settings.general.display.relabeltabs "在 Web Search Pro 打开的标签页中显示您的搜索短语">
+<!ENTITY wspro.settings.general.display.menustyle "请选择您喜爱的搜索引擎显示方式。">
+<!ENTITY wspro.settings.general.display.menustyle.flat "单一列表，即列出所有选中的搜索引擎">
+<!ENTITY wspro.settings.general.display.menustyle.group "分组，即每种类型搜索引擎显示一个子菜单">
+<!ENTITY wspro.settings.general.display.menustyle.list "分段列表，即在每种类型搜索引擎上方添加一条分隔线">
+<!ENTITY wspro.settings.general.display.googlesuggest "使用Google Suggest服务来在您输入的同时自动提出搜索建议">
+<!ENTITY wspro.settings.general.connection "连接选项">
+<!ENTITY wspro.settings.general.connection.autoupdate "每隔14天自动升级您的搜索引擎">
+<!ENTITY wspro.settings.general.export "导出设置">
+<!ENTITY wspro.settings.general.import "导入设置">
+<!ENTITY wspro.settings.general.defaultse "默认搜索引擎">
+<!ENTITY wspro.settings.general.defaultse.info "在每次搜索后自动切换回搜索引擎">
+<!ENTITY wspro.settings.display "显示">
+<!ENTITY wspro.settings.dropzones "拖放区域">
+<!ENTITY wspro.settings.dropzones.usedropzones "使用拖放区域">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "显示还没有指定对应搜索引擎的拖放区域">
+<!ENTITY wspro.settings.dropzones.color "颜色">
+<!ENTITY wspro.settings.dropzones.trailstyle "拖拽轨迹风格">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "渐弱">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "固定">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "无">
+<!ENTITY wspro.settings.dropzones.assign "将拖放区域分配给搜索引擎">
+<!ENTITY wspro.settings.searchengines "搜索引擎">
+<!ENTITY wspro.settings.searchengines.selected "已选择的搜索引擎">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "点我修改此搜索引擎的详细信息">
+<!ENTITY wspro.settings.searchengines.selected.remove "删除">
+<!ENTITY wspro.settings.searchengines.selected.report "通知 Captain Caveman 这个搜索引擎是坏的">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "将所选的搜索引擎按升序排序">
+<!ENTITY wspro.settings.searchengines.selected.sortza "将所选的搜索引擎按降序排序">
+<!ENTITY wspro.settings.searchengines.selected.update "立即升级当前选定的搜索引擎">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "在前面的文本框填入您要搜索的内容，然后点我进行搜索">
+<!ENTITY wspro.toolbar.toggledend "拖放区域">
+<!ENTITY wspro.toolbar.toggledend.tooltip "切换拖放区域的显示">
+<!ENTITY wspro.searchall.movie.tooltip "使用所有电影类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.music.tooltip "使用所有音乐类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.other.tooltip "使用所有其他类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.computer.tooltip "使用所有计算机/技术类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.education.tooltip "使用所有教育类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.news.tooltip "使用所有新闻类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.reference.tooltip "使用所有参考/词典类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.shopping.tooltip "使用所有购物类搜索引擎进行搜索">
+<!ENTITY wspro.searchall.business.tooltip "使用所有商业类搜索引擎进行搜索">
+<!ENTITY wspro.searchengine.id "编号">
+<!ENTITY wspro.searchengine.favicon "图标">
+<!ENTITY wspro.searchengine.shortcut "快捷键">
+<!ENTITY wspro.searchengine.browse "浏览">
+<!ENTITY wspro.searchengine.dropzones.info "拖放区域是指在您的浏览器窗口中的一片区域，你可以直接将要搜索的文本拖进去自动进行搜索。你可以在为每一个搜索引擎单独选择多个拖放区域。">
+<!ENTITY wspro.searchengine.dropzones.info.size "在下面的红色虚线区域内设定您的拖放区域，将会自动使得区域较大，数量较少。您可以选择16、36或者64个拖放区域。">
+<!ENTITY wspro.searchengine.autosuggest "提交给 Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "编辑这个搜索引擎">
+<!ENTITY wspro.context.removesearchengine "移除这个搜索引擎">
+<!ENTITY wspro.settings.searchenginegroups "搜索引擎分组">
+<!ENTITY wspro.settings.searchenginegroups.edit "编辑搜索引擎分组...">
+<!ENTITY wspro.settings.searchenginegroups.remove "移除搜索引擎分组">
+<!ENTITY wspro.settings.searchenginegroups.add "添加搜索引擎分组...">
+<!ENTITY wspro.settings.searchengines.getengines "获取更多搜索引擎...">
+<!ENTITY wspro-qts-title "Web Search Pro - 快速搜索">
+<!ENTITY wspro-qts-searchengine "搜索引擎">
+<!ENTITY wspro-qts-searchtext "搜索内容">
+<!ENTITY wspro.settings.qts.color "快速搜索弹出框的背景颜色">
+<!ENTITY wspro.searchengine.autoprivatesuggest "添加为个人搜索引擎...">
+<!ENTITY wspro.qts.search "搜索">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "清除">
+<!ENTITY wspro.qts.clear.accesskey "C">

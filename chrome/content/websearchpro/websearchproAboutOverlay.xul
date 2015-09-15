@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script>
+addEventListener("load",Init,true)
+function Init()
+{
+	document.getElementById("clientBox").setAttribute('extensionname', document.getElementById("extensionName").getAttribute('value'));
+}
+</script>
+</overlay>
+

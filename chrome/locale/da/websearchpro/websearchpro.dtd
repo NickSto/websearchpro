@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - søgemaskiner &amp; indstillinger">
+<!ENTITY wspro.menuitem.options "Søgemaskiner &amp; indstillinger">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Navn:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Type:">
+<!ENTITY mmsearch.settings.free.type.music "Musik">
+<!ENTITY mmsearch.settings.free.type.movies "Film">
+<!ENTITY mmsearch.settings.free.type.other "Andet">
+<!ENTITY mmsearch.settings.free.type.computer "Computer / Teknologi">
+<!ENTITY mmsearch.settings.free.type.education "Uddannelse">
+<!ENTITY mmsearch.settings.free.type.news "Nyheder">
+<!ENTITY mmsearch.settings.free.type.reference "Opslagsværker / Ordbøger">
+<!ENTITY mmsearch.settings.free.type.shopping "Shopping">
+<!ENTITY mmsearch.settings.free.type.business "Forretning">
+<!ENTITY mmsearch.search "Søg">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Foreslå en søgemaskine">
+<!ENTITY mmsearch.settings.free.available.private "Tilføj en privat søgemaskine">
+<!ENTITY mmsearch.settings.free.available.loading "Indlæser...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Vis søgemaskiner">
+<!ENTITY wspro.settings.general "Generelt">
+<!ENTITY wspro.settings.general.search "Søgeindstillinger">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Ryd søgeforespørgslen fra tekstfeltet efter hver søgning">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Genbrug fanebladssider åbnet af Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Start søgningen når du skifter søgemaskiner på værktøjslinjen">
+<!ENTITY wspro.settings.general.search.searchondrop "Start din søgning når tekst trækkes ind i eller indsættes i Web Search Pro værktøjslinjen">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Brug Quick Type Search popup i stedet for søge-værktøjslinjen ved tryk på en genvej">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Åbn søgeresultater i et nyt faneblad">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Indlæs fanebladssider åbnet af Web Search Pro i forgrunden">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Andre visnings-indstillinger">
+<!ENTITY wspro.settings.general.display.hide "Skjul elementer (visse elementer kan kræve genstart af browseren)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Skjul standard Firefox Web Search (tilret din værktøjslinje for at få den frem igen)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Skjul Web Search Pro på Funktioner-menuen">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Skjul Web Search Pro på kontekstmenuen">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Skjul Web Search Pro værktøjslinje tilpasning">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Skjul Web Search Pro standard Søgemaskinegrupper (kun tomme grupper)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Sortér automatisk søgemaskiner alfabetisk">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Hvordan vil du vise dine søgemaskiner?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Fladt, blot en liste over valgte søgemaskiner">
+<!ENTITY wspro.settings.general.display.menustyle.group "Grupperet, en undermenu for hver type søgemaskine">
+<!ENTITY wspro.settings.general.display.menustyle.list "Opdelt liste, en flad liste men med en header for hver type søgemaskine">
+<!ENTITY wspro.settings.general.display.googlesuggest "Brug Google Suggest til at give forslag mens du skriver">
+<!ENTITY wspro.settings.general.connection "Forbindelsesindstillinger">
+<!ENTITY wspro.settings.general.connection.autoupdate "Opdatér automatisk dine Søgemaskiner hver 14. dag">
+<!ENTITY wspro.settings.general.export "Eksporter indstillinger">
+<!ENTITY wspro.settings.general.import "Importer indstillinger">
+<!ENTITY wspro.settings.general.defaultse "Standard søgemaskine">
+<!ENTITY wspro.settings.general.defaultse.info "Efter hver søgning, skift tilbage til denne søgemaskine">
+<!ENTITY wspro.settings.display "Visning">
+<!ENTITY wspro.settings.dropzones "Træk-og-slip-zoner">
+<!ENTITY wspro.settings.dropzones.usedropzones "Brug træk-og-slip-zoner">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Vis slipzoner som ikke har en søgemaskine tilknyttet (Slipzoner udfyldes med standard-søgemaskinen)">
+<!ENTITY wspro.settings.dropzones.color "Farve">
+<!ENTITY wspro.settings.dropzones.trailstyle "Spor-stil">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Fade ud">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Single">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Ingen">
+<!ENTITY wspro.settings.dropzones.assign "Tilknyt træk-og-slip-zoner til søgemaskiner">
+<!ENTITY wspro.settings.searchengines "Søgemaskiner">
+<!ENTITY wspro.settings.searchengines.selected "Valgte søgemaskiner">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Klik for at redigere detaljerne for denne søgemaskine">
+<!ENTITY wspro.settings.searchengines.selected.remove "Klik for at fjerne denne søgemaskine">
+<!ENTITY wspro.settings.searchengines.selected.report "Klik for at notificere Captain Caveman om at denne søgemaskine er i stykker">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Klik for at sortere valgte søgemaskiner i stigende orden">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Klik for at sortere valgte søgemaskiner i faldende orden">
+<!ENTITY wspro.settings.searchengines.selected.update "Klik for at opdatere de valgte søgemaskiner nu">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Indtast en søgeforespørgsel i tekstfeltet og tryk Søg">
+<!ENTITY wspro.toolbar.toggledend "Træk-og-slip-zoner">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Slå Træk-og-slip-zoner Til eller Fra">
+<!ENTITY wspro.searchall.movie.tooltip "Søg alle valgte filmsider">
+<!ENTITY wspro.searchall.music.tooltip "Søg alle valgte musiksider">
+<!ENTITY wspro.searchall.other.tooltip "Søg alle valgte andre sider">
+<!ENTITY wspro.searchall.computer.tooltip "Søg alle valgte computer / teknologisider">
+<!ENTITY wspro.searchall.education.tooltip "Søg alle valgte uddannelsessider">
+<!ENTITY wspro.searchall.news.tooltip "Søg alle valgte nyhedssider">
+<!ENTITY wspro.searchall.reference.tooltip "Søg alle valgte opslagsværker / ordbogssider">
+<!ENTITY wspro.searchall.shopping.tooltip "Søg alle valgte shoppingsider">
+<!ENTITY wspro.searchall.business.tooltip "Søg alle valgte forretningssider">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Ikon">
+<!ENTITY wspro.searchengine.shortcut "Tastaturgenvej">
+<!ENTITY wspro.searchengine.browse "Gennemse">
+<!ENTITY wspro.searchengine.dropzones.info "En træk-og-slip-zone er et område i dit browservindue hvor du kan trææk tekst ind i for at starte en søgning. Du kan vælge så mange zoner som du vil pr. søgemaskine.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Tilknyt dine slipzoner indenfor et rødprikket område herunder til automatisk at bruge større men mere begrænsede slipzoner. Du kan vælge mellem 16, 36 eller 64 slipzoner.">
+<!ENTITY wspro.searchengine.autosuggest "Foreslå til Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Ret denne søgemaskine...">
+<!ENTITY wspro.context.removesearchengine "Fjern denne søgemaskine">
+<!ENTITY wspro.settings.searchenginegroups "Søgemaskinegrupper">
+<!ENTITY wspro.settings.searchenginegroups.edit "Ret denne søgemaskinegruppe...">
+<!ENTITY wspro.settings.searchenginegroups.remove "Fjern denne søgemaskinegruppe">
+<!ENTITY wspro.settings.searchenginegroups.add "Tilføj en ny søgemaskinegruppe...">
+<!ENTITY wspro.settings.searchengines.getengines "Hent flere søgemaskiner...">
+<!ENTITY wspro-qts-title "Web Search Pro - Quick Type Search">
+<!ENTITY wspro-qts-searchengine "Søg ved hjælp af">
+<!ENTITY wspro-qts-searchtext "Søg efter">
+<!ENTITY wspro.settings.qts.color "Baggrundsfarve for Quick Type Search popuppen">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

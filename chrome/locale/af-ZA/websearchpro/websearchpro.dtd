@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - soekenjins &amp; opstelling">
+<!ENTITY wspro.menuitem.options "Soekenjins &amp; opstelling">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Naam:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Soort:">
+<!ENTITY mmsearch.settings.free.type.music "Musiek">
+<!ENTITY mmsearch.settings.free.type.movies "Flieks">
+<!ENTITY mmsearch.settings.free.type.other "Ander">
+<!ENTITY mmsearch.settings.free.type.computer "Rekenaars/tegnologie">
+<!ENTITY mmsearch.settings.free.type.education "Opvoeding">
+<!ENTITY mmsearch.settings.free.type.news "Nuus">
+<!ENTITY mmsearch.settings.free.type.reference "Naslaan/woordeboeke">
+<!ENTITY mmsearch.settings.free.type.shopping "Inkopies">
+<!ENTITY mmsearch.settings.free.type.business "Besigheid">
+<!ENTITY mmsearch.search "Deursoek">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Stel &apos;n soekenjin voor">
+<!ENTITY mmsearch.settings.free.available.private "Voeg &apos;n private enjin by">
+<!ENTITY mmsearch.settings.free.available.loading "Laai tans...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Vertoon soekenjins">
+<!ENTITY wspro.settings.general "Algemeen">
+<!ENTITY wspro.settings.general.search "Soekopsies">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Veeg die soeknavraag uit die tekskassie ná elke soektog">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Herbruik oortjies wat deur Web Search Pro geopen is">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Begin die soektog wanneer jy van soekenjins verwissel op die nutsbalk">
+<!ENTITY wspro.settings.general.search.searchondrop "Begin jou soektog wanneer teks op die Web Search Pro-nutsbalk laat val of geplak word">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Gebruik die kitstik-soekbalkie in plaas van die soektognutsbalk wanneer jy &apos;n snelsleutel druk">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Open soekresultate in &apos;n nuwe oortjie">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Laai oortjies wat deur Web Search Pro geopen is vóór">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Ander vertoonopsies">
+<!ENTITY wspro.settings.general.display.hide "Versteek items (vir sommige items moet jy die blaaier herbegin">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Versteek die verstek-Firefox-websoektog (doelmaak jou nutsbalk om dit later terug te bring)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Versteek die Web Search Pro-nutskieslys">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Versteek die Web Search Pro-kontekskieslys">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Versteek Web Search Pro se nutsbalkskaleerder">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Versteek Web Search Pro se verstek-soekenjingroepe (net leë groepe)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Rangskik soekenjins outomaties alfabeties">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Hoe wil jy jou soekenjins laat vertoon?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Plat, nes &apos;n lys enjins wat ek gekies het">
+<!ENTITY wspro.settings.general.display.menustyle.group "Gegroepeer, met subkieslys vir elke soort soekenjin">
+<!ENTITY wspro.settings.general.display.menustyle.list "Aparte lys, &apos;n plat lys maar met &apos;n opskrif vir elke soort soekenjin">
+<!ENTITY wspro.settings.general.display.googlesuggest "Laat Google Suggest raai wat jy tik as jy tik">
+<!ENTITY wspro.settings.general.connection "Verbindingsopsies">
+<!ENTITY wspro.settings.general.connection.autoupdate "Dateer jou soekenjins elke 14 dae outomaties op">
+<!ENTITY wspro.settings.general.export "Voer instellings uit">
+<!ENTITY wspro.settings.general.import "Voer instelligs in">
+<!ENTITY wspro.settings.general.defaultse "Verstek-soekenjin">
+<!ENTITY wspro.settings.general.defaultse.info "Na elke soektog, skakel terug na hierdie soekenjin">
+<!ENTITY wspro.settings.display "Vertoon">
+<!ENTITY wspro.settings.dropzones "Laatlos-sones">
+<!ENTITY wspro.settings.dropzones.usedropzones "Gebruik laatlos-sones">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Wys laatlos-sones waarna geen soekenjin toegewys is nie">
+<!ENTITY wspro.settings.dropzones.color "Kleur">
+<!ENTITY wspro.settings.dropzones.trailstyle "Stertstyl">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Vervaag">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Enkel">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Geen">
+<!ENTITY wspro.settings.dropzones.assign "Ken laatlos-sones toe aan soekenjins">
+<!ENTITY wspro.settings.searchengines "Soekenjins">
+<!ENTITY wspro.settings.searchengines.selected "Gemerkte soekenjins">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Kliek om hierdie soekenjin se details te redigeer">
+<!ENTITY wspro.settings.searchengines.selected.remove "Kliek om hierdie soekenjin te verwyder">
+<!ENTITY wspro.settings.searchengines.selected.report "Kliek om Captain Caveman te vertel dat dié soekenjin gebreek is">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Kliek om die gemerkte soekenjins oplopend te rangskik">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Kliek om die gemerkte soekenjins aflopend te rangskik">
+<!ENTITY wspro.settings.searchengines.selected.update "Kliek om die gemerkte soekenjins nou op te dateer">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Tik &apos;n soeknavraag in die tekskassie, en druk Deursoek">
+<!ENTITY wspro.toolbar.toggledend "Laatlos-sones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Skakel laatlos-sones aan of af">
+<!ENTITY wspro.searchall.movie.tooltip "Deursoek alle gemerkte fliekwerwe">
+<!ENTITY wspro.searchall.music.tooltip "Deursoek alle gemerkte musiekwerwe">
+<!ENTITY wspro.searchall.other.tooltip "Deursoek alle gemerkte ander werwe">
+<!ENTITY wspro.searchall.computer.tooltip "Deursoek alle gemerkte rekenaars/tegnologie-werwe">
+<!ENTITY wspro.searchall.education.tooltip "Deursoek alle gemerkte opvoedingwerwe">
+<!ENTITY wspro.searchall.news.tooltip "Deursoek alle gemerkte nuuswerwe">
+<!ENTITY wspro.searchall.reference.tooltip "Deursoek alle gemerkte naslaan/woordeboek-werwe">
+<!ENTITY wspro.searchall.shopping.tooltip "Deursoek alle gemerkte inkopieswerwe">
+<!ENTITY wspro.searchall.business.tooltip "Deursoek alle gemerkte besigheidswerwe">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Ikoon">
+<!ENTITY wspro.searchengine.shortcut "Snelsleutel">
+<!ENTITY wspro.searchengine.browse "Blaai">
+<!ENTITY wspro.searchengine.dropzones.info "&apos;n Laatlos-sone is &apos;n area in jou blaaiervenster waar jy teks kan laat los om daarvoor te begin soek. Jy kan so veel sones per soekenjin kies as wat jy wil.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Wys jou laatlos-sones binne n rooi stippelarea hieronder aan om outomaties groter maar minder laatlos-sones te gebruik.  Jy kan tussen 16, 36 of 64 laatlos-sones kies.">
+<!ENTITY wspro.searchengine.autosuggest "Stel vir Web Search Pro voor...">
+<!ENTITY wspro.context.editsearchengine "Redigeer hierdie soekenjin...">
+<!ENTITY wspro.context.removesearchengine "Verwyder hierdie soekenjin">
+<!ENTITY wspro.settings.searchenginegroups "Soekenjingroepe">
+<!ENTITY wspro.settings.searchenginegroups.edit "Redigeer hierdie soekenjingroep...">
+<!ENTITY wspro.settings.searchenginegroups.remove "Verwyder hierdie soekenjingroep">
+<!ENTITY wspro.settings.searchenginegroups.add "Voeg &apos;n nuwe soekenjingroep by...">
+<!ENTITY wspro.settings.searchengines.getengines "Kry meer soekenjins...">
+<!ENTITY wspro-qts-title "Web Search Pro - Kitstiksoektog">
+<!ENTITY wspro-qts-searchengine "Soek met">
+<!ENTITY wspro-qts-searchtext "Soek vir">
+<!ENTITY wspro.settings.qts.color "Agtergrondkleur vir die Kitstiksoektog-paneel">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

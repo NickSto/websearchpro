@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Cercadors &amp; Paràmetres">
+<!ENTITY wspro.menuitem.options "Cercadors &amp; Paràmetres">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Nom:">
+<!ENTITY mmsearch.settings.free.url "Direcció (URL):">
+<!ENTITY mmsearch.settings.free.type "Tipus:">
+<!ENTITY mmsearch.settings.free.type.music "Música">
+<!ENTITY mmsearch.settings.free.type.movies "Pel·lícules">
+<!ENTITY mmsearch.settings.free.type.other "Altre">
+<!ENTITY mmsearch.settings.free.type.computer "Informàtica / Tecnologia">
+<!ENTITY mmsearch.settings.free.type.education "Educació">
+<!ENTITY mmsearch.settings.free.type.news "Notícies">
+<!ENTITY mmsearch.settings.free.type.reference "Referències / Diccionaris">
+<!ENTITY mmsearch.settings.free.type.shopping "Compres">
+<!ENTITY mmsearch.settings.free.type.business "Negocis">
+<!ENTITY mmsearch.search "Cercar">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Recomana un motor de cerca">
+<!ENTITY mmsearch.settings.free.available.private "Afegir un motor privat">
+<!ENTITY mmsearch.settings.free.available.loading "Carregant...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Mostrar cercadors">
+<!ENTITY wspro.settings.general "General">
+<!ENTITY wspro.settings.general.search "Opcions de cerca">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Netejar la cadena de cerca del camp de text després de cada cerca">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Tornar a utilitzar les pestanyes obertes per Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Començar la cerca al canviar el cercador a la barra d&apos;eines">
+<!ENTITY wspro.settings.general.search.searchondrop "Començar la cerca quan arrossegui o enganxi el text a la barra d&apos;eines de Web Search Pro">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Utilitzar la finestra de cerca ràpida en comptes de la barra d&apos;eines al prémer un accés directe">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Obrir els resultats de la cerca en una nova pestanya">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Carregar les pestanyes obertes per Web Search Pro en primer pla">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Altres opcions de presentació">
+<!ENTITY wspro.settings.general.display.hide "Amagar elements (en alguns casos hauràs de reiniciar el navegador)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Amaga el motor de cerca per defecte de Firefox (Edita la barra d&apos;eines per desfer el canvi)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Amaga el menú del Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Amaga el menú contextual del Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Amaga el redimensionador del Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Amaga els grups de motors de cerca del Web Search Pro (només els buits)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Ordenar els cercadors automàticament de forma alfabètica">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Com t&apos;agradaria veure els teus cercadors?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Llista plana, com la llista de cercadors que he seleccionat">
+<!ENTITY wspro.settings.general.display.menustyle.group "Agrupats, un submenú per cada classe de cercador">
+<!ENTITY wspro.settings.general.display.menustyle.list "Llista separada, una llista plana però amb un encapçalament per cada classe de cercador">
+<!ENTITY wspro.settings.general.display.googlesuggest "Utilitzar Google Suggest per oferir recomanacions quan escriu">
+<!ENTITY wspro.settings.general.connection "Paràmetres de connexió">
+<!ENTITY wspro.settings.general.connection.autoupdate "Actualitzar automàticament els teus cercadors cada 14 dies">
+<!ENTITY wspro.settings.general.export "Exportar preferències">
+<!ENTITY wspro.settings.general.import "Importar preferències">
+<!ENTITY wspro.settings.general.defaultse "Motor de cerca per defecte">
+<!ENTITY wspro.settings.general.defaultse.info "Després de cada cerca torna a aquest motor de cerca">
+<!ENTITY wspro.settings.display "Mostra">
+<!ENTITY wspro.settings.dropzones "Zones Arrossegar &amp; Enganxar">
+<!ENTITY wspro.settings.dropzones.usedropzones "Utilitzar zones Arrossegar &amp; Enganxar">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Mostrar les zones que no tenen un cercador associat">
+<!ENTITY wspro.settings.dropzones.color "Color">
+<!ENTITY wspro.settings.dropzones.trailstyle "Estil de l&apos;estela">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Ample">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Simple">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Cap">
+<!ENTITY wspro.settings.dropzones.assign "Assignar zones Arrossegar &amp; Enganxar als cercadors">
+<!ENTITY wspro.settings.searchengines "Cercadors">
+<!ENTITY wspro.settings.searchengines.selected "Cercadors seleccionats">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Clica per editar els detalls d&apos;aquest cercador">
+<!ENTITY wspro.settings.searchengines.selected.remove "Clica per esborrar aquest cercador">
+<!ENTITY wspro.settings.searchengines.selected.report "Clica per notificar a Captain Caveman que el cercador no funciona">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Clica per ordenar els cercadors seleccionats en ordre ascendent">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Clica per ordenar els cercadors seleccionats en ordre descendent">
+<!ENTITY wspro.settings.searchengines.selected.update "Prem per actualitzar el cercador seleccionat">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Introdueix la consulta de cerca al camp de text i prem Cerca">
+<!ENTITY wspro.toolbar.toggledend "Zona d&apos;arrossegament">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Engegar o parar la Zona d&apos;arrossegament">
+<!ENTITY wspro.searchall.movie.tooltip "Cerca a tots els llocs de pel·lícules seleccionats">
+<!ENTITY wspro.searchall.music.tooltip "Cerca a tots els llocs de música seleccionats">
+<!ENTITY wspro.searchall.other.tooltip "Cerca a tots els llocs seleccionats">
+<!ENTITY wspro.searchall.computer.tooltip "Cerca a tots els llocs d&apos;Informàtica/Tecnologia seleccionats">
+<!ENTITY wspro.searchall.education.tooltip "Cerca a tots els llocs d&apos;educació selecionats">
+<!ENTITY wspro.searchall.news.tooltip "Cerca a tots els llocs de notícies seleccionats">
+<!ENTITY wspro.searchall.reference.tooltip "Cerca a tots els llocs de Referència/Diccionaris seleccionats">
+<!ENTITY wspro.searchall.shopping.tooltip "Cerca a tots els llocs de compres seleccionats">
+<!ENTITY wspro.searchall.business.tooltip "Cerca a tots els llocs de negocis seleccionats">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Icona">
+<!ENTITY wspro.searchengine.shortcut "Dracera de teclat">
+<!ENTITY wspro.searchengine.browse "Navegar">
+<!ENTITY wspro.searchengine.dropzones.info "Una zona Arrossegar i Enganxar és una àrea del teu navegador on s&apos;hi pot arrossegar text per començar una cerca. En pots seleccionar tantes com vulguis per cada cercador.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Assignar la teva zona d&apos;arrossegament dins una àrea vermella per poder-la redimensionar. Pots escollir entre 16, 36 o 64 Zones d&apos;arrossegament.">
+<!ENTITY wspro.searchengine.autosuggest "Recomanació per Web Searc Pro...">
+<!ENTITY wspro.context.editsearchengine "Edita aquest cercador...">
+<!ENTITY wspro.context.removesearchengine "Esborra aquest cercador">
+<!ENTITY wspro.settings.searchenginegroups "Grups de cercadors">
+<!ENTITY wspro.settings.searchenginegroups.edit "Edita aquest grup de cercadors">
+<!ENTITY wspro.settings.searchenginegroups.remove "Esborra aquest grup de cercadors">
+<!ENTITY wspro.settings.searchenginegroups.add "Afegeix un nou grup de cercadors">
+<!ENTITY wspro.settings.searchengines.getengines "Aconseguir més motors de cerca">
+<!ENTITY wspro-qts-title "Web Searc Pro - Cerca ràpida en escriure">
+<!ENTITY wspro-qts-searchengine "Cercar utilitzant">
+<!ENTITY wspro-qts-searchtext "Cercar">
+<!ENTITY wspro.settings.qts.color "Color de fons de la finestra de cerca ràpida">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

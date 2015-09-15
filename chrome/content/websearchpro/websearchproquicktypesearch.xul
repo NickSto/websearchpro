@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://websearchpro/skin/websearchpro.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://websearchpro/locale/websearchpro.dtd">
+<window id="wspro-qts" onload="InitWindow();" title="&wspro-qts-title;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" hidechrome="true">
+<script type="application/x-javascript" src="chrome://websearchpro/content/utils.js"/>
+<script type="application/x-javascript" src="chrome://websearchpro/content/websearchproquicktypesearch.js"/>
+<vbox id="vbox-qts" class="vbox-qts">
+	<hbox class="titlebar" flex="1" pack="end" onmousedown="WSProQTSStartDrag(event);">
+		<image class="close" onclick="CloseWindow();"/>
+	</hbox>
+	<vbox>
+		<listbox id="wspro-qts-selectedengines" flex="1" seltype="multiple" onkeyup="WSProHandleQTSKeyUp(this, event);" onselect="WSProQTSEngineSelect(this);">
+		</listbox>
+		<listitem class="listitem-iconic" id="wspro-qts-clone" label="" style="" fseid="" hidden="true" onkeyup="WSProHandleQTSKeyUp(this, event);"/>
+	</vbox>
+	<vbox>
+        <hbox flex="1" id="searchusing_box">
+            <label id="searchusing_label" class="leftlabel" value="&wspro-qts-searchengine;:" flex="1"/>
+            <textbox id="searchengine" value="" onkeyup="WSProHandleQTSKeyUp(this, event);" onfocus="WSProQTSFocus(true, this);" onblur="WSProQTSFocus(false, this);"/>
+        </hbox>
+        <vbox id="dynamicsearchparams">
+            <vbox id="bottomspacer" flex="99" pack="end">
+                <vbox>
+                    <hbox pack="center" flex="1">
+                        <button id="qtsclear" label="&wspro.qts.clear;" accesskey="&wspro.qts.clear.accesskey;" oncommand="QTSClear();"/>
+                        <button id="qtssearch" label="&wspro.qts.search;" accesskey="&wspro.qts.search.accesskey;" oncommand="QTSSearch();"/>
+                    </hbox>
+                </vbox>
+            </vbox>
+        </vbox>
+        <hbox id="searchterms_clone" flex="1" hidden="true">
+            <label value="&wspro-qts-searchtext;:" flex="1" class="leftlabel"/>
+            <textbox id="searchtext" class="searchterms" value="" onkeyup="WSProHandleQTSKeyUp(this, event);" onfocus="WSProQTSFocus(true, this);" onblur="WSProQTSFocus(false, this);" type="autocomplete" autocompletepopup="PopupAutoComplete" autocompletesearch="wspro-remote-url-suggestions" autocompletesearchparam="mmsearch-history" completeselectedindex="true" showcommentcolumn="true"/>
+        </hbox>
+	</vbox>
+</vbox>
+</window>

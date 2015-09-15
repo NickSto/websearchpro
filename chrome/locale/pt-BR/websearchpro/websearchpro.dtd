@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Mecanismos de busca e configurações">
+<!ENTITY wspro.menuitem.options "Mecanismos de busca e configurações">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Nome:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Tipo:">
+<!ENTITY mmsearch.settings.free.type.music "Música">
+<!ENTITY mmsearch.settings.free.type.movies "Filmes">
+<!ENTITY mmsearch.settings.free.type.other "Outros">
+<!ENTITY mmsearch.settings.free.type.computer "Informática/Tecnologia">
+<!ENTITY mmsearch.settings.free.type.education "Educação">
+<!ENTITY mmsearch.settings.free.type.news "Notícias">
+<!ENTITY mmsearch.settings.free.type.reference "Referência/Dicionários">
+<!ENTITY mmsearch.settings.free.type.shopping "Compras">
+<!ENTITY mmsearch.settings.free.type.business "Negócios">
+<!ENTITY mmsearch.search "Busca">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Recomende um mecanismo de busca">
+<!ENTITY mmsearch.settings.free.available.private "Adicionar um mecanismo particular">
+<!ENTITY mmsearch.settings.free.available.loading "Carregando...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Exibir mecanismos de busca">
+<!ENTITY wspro.settings.general "Geral">
+<!ENTITY wspro.settings.general.search "Opções de busca">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Limpar a consulta da caixa de texto após cada busca">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Reutilizar as páginas abertas pelo Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Iniciar a busca ao trocar os mecanismos de busca na barra de ferramentas">
+<!ENTITY wspro.settings.general.search.searchondrop "Iniciar a busca ao inserir ou colar texto na barra de ferramentas Web Search Pro">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Usar a janela de busca bápida em vez da barra de busca ao ativar um atalho">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Abrir os resultados da busca em uma nova aba">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Carregar as páginas abertas pelo Web Search Pro em primeiro plano">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Outras opções de exibição">
+<!ENTITY wspro.settings.general.display.hide "Ocultar itens (para alguns intens pode ser necessário reiniciar o navegador)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Ocultar a Busca do Firefox (personalize a barra de ferramentas para trazê-la de volta)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Ocultar o menu de Ferramentas Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Ocultar o menu de contexto Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Ocultar o redimensionador da Barra de ferramentas Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Ocultar os grupos de mecanismos de busca padrão do Web Search Pro (somente os vazios)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Ordenar automaticamente os mecanismos de busca">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "De que forma você gostaria de exibir os mecanismos de busca?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Simples, só a lista dos mecanismos selecionados">
+<!ENTITY wspro.settings.general.display.menustyle.group "Em grupo, um submenu para cada tipo de mecanismo de busca">
+<!ENTITY wspro.settings.general.display.menustyle.list "Lista com separadores, uma lista simples contendo um cabeçalho para cada tipo de mecanismo de busca">
+<!ENTITY wspro.settings.general.display.googlesuggest "Usar o Google Suggest para oferecer sugestões enquanto você digita">
+<!ENTITY wspro.settings.general.connection "Opções de conexão">
+<!ENTITY wspro.settings.general.connection.autoupdate "Atualizar automaticamente os mecanismos de busca a cada 14 dias">
+<!ENTITY wspro.settings.general.export "Exportar configurações">
+<!ENTITY wspro.settings.general.import "Importar configurações">
+<!ENTITY wspro.settings.general.defaultse "Mecanismo de busca padrão">
+<!ENTITY wspro.settings.general.defaultse.info "Após cada consulta, retorne para o seguinte mecanismo de busca">
+<!ENTITY wspro.settings.display "Exibição">
+<!ENTITY wspro.settings.dropzones "Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.usedropzones "Usar Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Exibir as DropZones que não tenham um mecanismo de busca associado (elas serão preenchidas pelo mecanismo de busca padrão)">
+<!ENTITY wspro.settings.dropzones.color "Cor">
+<!ENTITY wspro.settings.dropzones.trailstyle "Estilo do rastro">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Desaparecimento gradual">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Simples">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Nenhum">
+<!ENTITY wspro.settings.dropzones.assign "Definir Drag &amp; DropZone para mecanismos de busca">
+<!ENTITY wspro.settings.searchengines "Mecanismos de busca">
+<!ENTITY wspro.settings.searchengines.selected "Mecanismos de busca selecionados">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Clique aqui para editar os detalhes do mecanismo de busca">
+<!ENTITY wspro.settings.searchengines.selected.remove "Clique aqui para remover o mecanismo de busca">
+<!ENTITY wspro.settings.searchengines.selected.report "Clique aqui para notificar Captain Caveman de que o mecanismo de busca não funciona">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Clique aqui para ordenar os mecanismos de busca selecionados em ordem ascendente">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Clique aqui para ordenar os mecanismos de busca selecionados em ordem descendente">
+<!ENTITY wspro.settings.searchengines.selected.update "Clique aqui para atualizar agora os mecanismos de busca selecionados">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Insira as palavras para a consulta na caixa de texto e, depois, pressione Buscar">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Habilitar ou desabilitar as Drag &amp; DropZones">
+<!ENTITY wspro.searchall.movie.tooltip "Fazer a consulta nos sites de Filme selecionados">
+<!ENTITY wspro.searchall.music.tooltip "Fazer a consulta nos sites de Música selecionados">
+<!ENTITY wspro.searchall.other.tooltip "Fazer a consulta nos Outros sites selecionados">
+<!ENTITY wspro.searchall.computer.tooltip "Fazer a consulta nos sites de Computador/Tecnologia selecionados">
+<!ENTITY wspro.searchall.education.tooltip "Fazer a consulta nos sites de Educação selecionados">
+<!ENTITY wspro.searchall.news.tooltip "Fazer a consulta nos sites de Notícias selecionados">
+<!ENTITY wspro.searchall.reference.tooltip "Fazer a consulta nos sites de Referência/Dicionários selecionados">
+<!ENTITY wspro.searchall.shopping.tooltip "Fazer a consulta nos sites de Compras selecionados">
+<!ENTITY wspro.searchall.business.tooltip "Fazer a consulta nos sites de Negócios selecionados">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Ícone">
+<!ENTITY wspro.searchengine.shortcut "Atalho de teclado">
+<!ENTITY wspro.searchengine.browse "Navegar">
+<!ENTITY wspro.searchengine.dropzones.info "Uma Drag &amp; DropZone consiste em uma área da janela do navegador na qual você pode arrastar texto para iniciar uma busca. É possível definir um mecanismo de busca para mais de uma DropZone.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Defina as DropZones na área pontilhada em vermelho abaixo para usar automaticamente DropZones maiores (o que resulta em menos zonas). É possível escolher entre 16, 36 e 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Recomente para o Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Editar o mecanismo de busca...">
+<!ENTITY wspro.context.removesearchengine "Remover o mecanismo de busca">
+<!ENTITY wspro.settings.searchenginegroups "Grupos de mecanismos de busca">
+<!ENTITY wspro.settings.searchenginegroups.edit "Editar o grupo de mecanismos de busca">
+<!ENTITY wspro.settings.searchenginegroups.remove "Remover o grupo de mecanismos de busca">
+<!ENTITY wspro.settings.searchenginegroups.add "Inserir novo grupo de mecanismos de busca">
+<!ENTITY wspro.settings.searchengines.getengines "Obter mais mecanismos de busca...">
+<!ENTITY wspro-qts-title "Web Search Pro - Busca rápida">
+<!ENTITY wspro-qts-searchengine "Fazer a busca usando">
+<!ENTITY wspro-qts-searchtext "Buscar por">
+<!ENTITY wspro.settings.qts.color "Cor de fundo para a janela de busca rápida">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

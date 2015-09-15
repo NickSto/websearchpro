@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!DOCTYPE dialog SYSTEM "chrome://websearchpro/locale/websearchpro.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://websearchpro/skin/websearchpro.css" type="text/css"?>
+<overlay id="websearchproOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+
+<script type="application/x-javascript" src="chrome://websearchpro/content/utils.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/>
+<script type="application/x-javascript" src="chrome://websearchpro/content/websearchproOverlay.js"/>
+<script type="application/x-javascript" src="chrome://websearchpro/content/websearchpro_searchroutines.js"/>
+
+<keyset id="mainKeyset">
+  <key id="wspro-key-ctrl-K" modifiers="control" key="K" oncommand="WSProOverlay.HotKeySearch('', '', true);"/>
+  <key id="wspro-key-ctrl-Q" modifiers="control" key="Q" oncommand="WSProOverlay.WSProQuickTypeSearch('');"/>
+  <key id="wspro-key-ctrl-alt-S" modifiers="accel alt" key="S" oncommand="WSProOverlay.OpenOptions();"/>
+
+  <key disabled="true" id="wspro-key-A" modifiers="accel shift" key="A" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-B" modifiers="accel shift" key="B" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-C" modifiers="accel shift" key="C" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-D" modifiers="accel shift" key="D" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-E" modifiers="accel shift" key="E" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-F" modifiers="accel shift" key="F" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-G" modifiers="accel shift" key="G" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-H" modifiers="accel shift" key="H" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-I" modifiers="accel shift" key="I" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-J" modifiers="accel shift" key="J" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-K" modifiers="accel shift" key="K" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-L" modifiers="accel shift" key="L" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-M" modifiers="accel shift" key="M" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-N" modifiers="accel shift" key="N" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-O" modifiers="accel shift" key="O" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-P" modifiers="accel shift" key="P" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-Q" modifiers="accel shift" key="Q" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-R" modifiers="accel shift" key="R" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-S" modifiers="accel shift" key="S" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-T" modifiers="accel shift" key="T" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-U" modifiers="accel shift" key="U" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-V" modifiers="accel shift" key="V" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-W" modifiers="accel shift" key="W" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-X" modifiers="accel shift" key="X" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-Y" modifiers="accel shift" key="Y" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-Z" modifiers="accel shift" key="Z" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-A" modifiers="accel alt" key="A" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-B" modifiers="accel alt" key="B" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-C" modifiers="accel alt" key="C" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-D" modifiers="accel alt" key="D" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-E" modifiers="accel alt" key="E" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-F" modifiers="accel alt" key="F" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-G" modifiers="accel alt" key="G" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-H" modifiers="accel alt" key="H" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-I" modifiers="accel alt" key="I" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-J" modifiers="accel alt" key="J" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-K" modifiers="accel alt" key="K" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-L" modifiers="accel alt" key="L" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-M" modifiers="accel alt" key="M" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-N" modifiers="accel alt" key="N" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-O" modifiers="accel alt" key="O" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-P" modifiers="accel alt" key="P" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-Q" modifiers="accel alt" key="Q" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-R" modifiers="accel alt" key="R" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-S" modifiers="accel alt" key="S" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-T" modifiers="accel alt" key="T" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-U" modifiers="accel alt" key="U" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-V" modifiers="accel alt" key="V" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-W" modifiers="accel alt" key="W" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-X" modifiers="accel alt" key="X" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-Y" modifiers="accel alt" key="Y" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+  <key disabled="true" id="wspro-key-alt-Z" modifiers="accel alt" key="Z" oncommand="WSProOverlay.HotKeySearch(this.getAttribute('key'), this.getAttribute('fseid'));"/>
+</keyset>
+
+<window id="main-window">
+	<html:canvas id="wspro-faviconcanvas" style="display: none;"/>
+</window>
+
+<menupopup id="menu_ToolsPopup">
+	<menu id="mmsearchTools" class="menuitem-iconic menu-iconic" label="&mmsearch.name;" position="1">
+		<menupopup>
+			<menuitem id="mmsearchToolsSearch" class="menuitem-iconic" label="&mmsearch.search;" oncommand="WSProOverlay.PreHotKeySearch('', '', true);" accesskey="&wspro.tools.accesskey;" key="wspro-key-ctrl-K"/>
+			<menuitem id="mmsearchToolsQTS" class="menuitem-iconic" label="&wspro.menuitem.qts;" oncommand="WSProOverlay.WSProQuickTypeSearch('');" accesskey="&wspro.menuitem.qts.accesskey;" key="wspro-key-ctrl-Q"/>
+        	<menuseparator id="mmsearchToolsSeparator1"/>
+   			<menuitem class="menuitem-iconic" id="mmsearchToolsExport" label="&wspro.settings.general.export;" oncommand="WSProOverlay.WSProExportpreferences();"/>
+   			<menuitem class="menuitem-iconic" id="mmsearchToolsImport" label="&wspro.settings.general.import;" oncommand="WSProOverlay.WSProImportpreferences();"/>
+   			<menuitem class="menuitem-iconic" id="mmsearchToolsOptions" label="&wspro.menuitem.options;" oncommand="WSProOverlay.OpenOptions();" key="wspro-key-ctrl-alt-S"/>
+		</menupopup>
+	</menu>
+	<menuseparator id="mmsearchToolsSeparator" position="3"/>
+</menupopup>
+
+<popupset id="mainPopupSet">
+  <menupopup id="wspro-se-context" onpopupshowing="WSProOverlay.WSProProcessSEContextPopup(this, true);" onpopuphiding="WSProOverlay.WSProProcessSEContextPopup(this, false);">
+    <menuitem id="wspro-se-context-edit" class="menuitem-iconic"  label="&wspro.context.editsearchengine;" oncommand="WSProOverlay.WSProEditSearchEngine(event);"/>
+    <menuitem id="wspro-se-context-remove" class="menuitem-iconic"  label="&wspro.context.removesearchengine;" oncommand="WSProOverlay.WSProRemoveSearchEngine(event);"/>
+  </menupopup>
+</popupset>
+
+<hbox id="browser">
+	<hbox id="groupsearchlabels" hidden="true">
+		<label id="wspro-version24info-movie" value="&wspro.searchall.movie.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_movie.png" fselabel="&mmsearch.settings.free.type.movies;"/>
+		<label id="wspro-version24info-music" value="&wspro.searchall.music.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_music.png" fselabel="&mmsearch.settings.free.type.music;"/>
+		<label id="wspro-version24info-other" value="&wspro.searchall.other.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_other.png" fselabel="&mmsearch.settings.free.type.other;"/>
+		<label id="wspro-version24info-compu" value="&wspro.searchall.computer.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_computer.png" fselabel="&mmsearch.settings.free.type.computer;"/>
+		<label id="wspro-version24info-educa" value="&wspro.searchall.education.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_education.png" fselabel="&mmsearch.settings.free.type.education;"/>
+		<label id="wspro-version24info-newss" value="&wspro.searchall.news.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_news.png" fselabel="&mmsearch.settings.free.type.news;"/>
+		<label id="wspro-version24info-refer" value="&wspro.searchall.reference.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_reference.png" fselabel="&mmsearch.settings.free.type.reference;"/>
+		<label id="wspro-version24info-shopp" value="&wspro.searchall.shopping.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_shopping.png" fselabel="&mmsearch.settings.free.type.shopping;"/>
+		<label id="wspro-version24info-busin" value="&wspro.searchall.business.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_business.png" fselabel="&mmsearch.settings.free.type.business;"/>
+	</hbox>
+</hbox>
+
+<popup id="contentAreaContextMenu">
+	<menuitem class="menuitem-iconic" id="wspro-context-suggest_private" label="&wspro.searchengine.autoprivatesuggest;" oncommand="WSProOverlay.WSProSuggestSearchEngine(document.popupNode, true);" insertafter="context-keywordfield"/>
+	<menuitem class="menuitem-iconic" id="wspro-context-suggest" label="&wspro.searchengine.autosuggest;" oncommand="WSProOverlay.WSProSuggestSearchEngine(document.popupNode);" insertafter="context-keywordfield" />
+
+	<menu label="&mmsearch.menuitem.mmsearch-context;" class="menuitem-iconic menu-iconic" id="mmsearch-context" insertafter="context-searchselect" hasbackgroundimage="true">
+       	<menupopup id="mmsearchcontextsearchengines">
+           	<menu class="menuitem-iconic menu-iconic mmsearch_freesearch mmsearch_freesearch-group" wspromenutype="searchgroup" id="ct-group-wspro-clone" menustyler="true" fsetype="" fseicon="" label="" onclick="WSProOverlay.WSProHandleContextGroupClick(event, this.id);" hidden="true" hasbackgroundimage="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><menupopup/></menu>
+           	<menuitem class="mmsearch_freesearch-group" id="ct-vlist-wspro-clone" wspromenutype="searchgroup" menustyler="true" fsetype="" fseicon="" oncommand="WSProOverlay.WSProHandleContextGroupClick(event, this.id);" hidden="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><image src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/><label value="" flex="1" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/></menuitem>
+
+           	<menuitem class="menuitem-iconic mmsearch_freesearch" id="clone-mmsearch-searchfreesearch" wspromenutype="searchengine" label="" oncommand="WSProOverlay.MMPopupPreSearch(this.id);" onclick="WSProOverlay.WSProShowSEContextMenu(event, this);" hidden="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><image src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/><label value="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/></menuitem>
+			<menuseparator id="mscontextbeforeoptions"/>
+           	<menuitem class="menuitem-iconic mmsearch_options" id="mmsearch-options" label="&wspro.menuitem.options;" oncommand="WSProOverlay.OpenOptions();" hasbackgroundimage="true" key="wspro-key-ctrl-alt-S"/>
+		</menupopup>
+	</menu>
+</popup>
+
+<toolbarpalette id="BrowserToolbarPalette">
+	<toolbaritem id="MMSearchToolbarContainer" title="&mmsearch.menuitem.mmsearch-context;" align="center" class="chromeclass-toolbar-additional" flex="0" persist="width">
+		<vbox flex="1">
+			<hbox>
+				<textbox id="MMSearchTBTextbox" onkeypress="WSProOverlay.ProcessToolbarKey(this, event);" onfocus="WSProOverlay.ProcessToolbarFocus(true);" onblur="WSProOverlay.ProcessToolbarFocus(false);" type="autocomplete" autocompletepopup="PopupAutoComplete" autocompletesearch="wspro-remote-url-suggestions" autocompletesearchparam="mmsearch-history" completeselectedindex="true" showcommentcolumn="true" tabscrolling="true" flex="2" style="width: 275px" persist="width" timeout="250" maxrows="10" hasfocus="false">
+					<popupset>
+						<menupopup id="mmsearchpopupsearchengine" position="after_start" onpopupshowing="WSProOverlay.DisableToolbarAutoComplete(true);" onpopuphiding="WSProOverlay.DisableToolbarAutoComplete(false);" context="wspro-se-context">
+           					<menu class="menuitem-iconic menu-iconic mmsearch_freesearch mmsearch_freesearch-group" id="tb-group-wspro-clone" wspromenutype="searchgroup" menustyler="true" fsetype="" fseicon="" label="" onclick="WSProOverlay.WSProHandleToolbarGroupClick(event, this.id);" hidden="true" hasbackgroundimage="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><menupopup context="wspro-se-context"/></menu>
+           					<menuitem class="mmsearch_freesearch-group" id="tb-vlist-wspro-clone" wspromenutype="searchgroup" menustyler="true" fsetype="" fseicon="" oncommand="WSProOverlay.WSProHandleToolbarGroupClick(event, this.id);" hidden="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><image src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/><label value="" flex="1" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/></menuitem>
+
+							<menuitem class="mmsearch_freesearch" id="clone-mmsearch-searchfreesearch-toolbar" wspromenutype="searchengine" label="" oncommand="WSProOverlay.SetSearchEngine(this.id, true, false, event);" onclick="WSProOverlay.WSProToolbarMClickSetSearchEngine(this.id, true, false, event);" hidden="true" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"><image src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/><label value="" ondraggesture="nsDragAndDrop.startDrag(event, WSProOverlay.WSProSEDragDropItemObserver);"/></menuitem>
+							<menuseparator id="mspopupbeforeoptions"/>
+		           			<menuitem class="menuitem-iconic mmsearch_options" id="mmsearch-options-toolbar" label="&wspro.menuitem.options;" oncommand="WSProOverlay.OpenOptions();" hasbackgroundimage="true" key="wspro-key-ctrl-alt-S"/>
+						</menupopup>
+					</popupset>
+					<tooltip id="mmsearchenginetooltip">
+						<label value=""/>
+					</tooltip>
+					<stack id="seimagestack" popup="mmsearchpopupsearchengine" onclick="WSProOverlay.MMSearchInitToolbar(false);" tooltip="mmsearchenginetooltip">
+						<vbox>
+							<image class="searchbar-engine-button-top"/>
+							<image flex="1" class="searchbar-engine-button-mid-top"/>
+							<image flex="1" class="searchbar-engine-button-mid-bottom"/>
+							<image class="searchbar-engine-button-bottom"/>
+						</vbox>
+						<hbox id="MMSearchTBButtonBox" align="center"><image id="MMSearchTBButton" class="mmsearch_freesearch" fsetype="movie"/></hbox>
+						<hbox align="center"><image id="dropmarker"/></hbox>
+					</stack>
+				</textbox>
+				<splitter id="splitter_wsproresizer" state="open" collapse="none" resizebefore="closest" resizeafter="grow"><vbox id="MMSearchTBResizer"/></splitter>
+				<toolbaritem id="dummyforresize"/>
+			</hbox>
+		</vbox>
+	</toolbaritem>
+	<toolbarbutton id="MMSearchTBGOButton" class="toolbarbutton-1 chromeclass-toolbar-additional" label="&wspro.toolbar.searchbutton;" oncommand="WSProOverlay.HotKeySearch('', '');" tooltiptext="&wspro.toolbar.search.tooltip;"/>
+	<toolbarbutton id="WSProTBToggleDenD" class="toolbarbutton-1 chromeclass-toolbar-additional" dendon="true" label="&wspro.toolbar.toggledend;" oncommand="WSProOverlay.WSProToggleDenD();" tooltiptext="&wspro.toolbar.toggledend.tooltip;"/>
+	<toolbarbutton id="MMSearchTBQTSButton" class="toolbarbutton-1 chromeclass-toolbar-additional" label="&wspro.menuitem.qts;" oncommand="WSProOverlay.WSProQuickTypeSearch('');" tooltiptext="&wspro.menuitem.qts.tooltip;"/>
+</toolbarpalette>
+
+<statusbar id="status-bar">
+	<statusbarpanel id="sbp-wspro-addengine" mode="icon" class="statusbarpanel-menu-iconic" tooltip="sbp-wspro-addengine-tooltip" fsetitle="" fsehref="" hidden="true"/>
+	<tooltip id="sbp-wspro-addengine-tooltip" label=""/>
+</statusbar>
+</overlay>
+

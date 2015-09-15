@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://websearchpro/skin/websearchpro.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://websearchpro/locale/websearchpro.dtd">
+<dialog id="mmsearch-window" 
+		title="" 
+		width="500px"
+        onload="InitWindow();"
+		ondialogaccept="return ApplyAndClose();"
+		ondialogcancel="return CancelAndClose();"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://websearchpro/content/utils.js"/>
+<script type="application/x-javascript" src="chrome://websearchpro/content/websearchprosearchengine.js"/>
+<groupbox style="margin-top: 0px; margin-bottom: 0px; margin-right: 15px; padding-right: 15px">
+	<caption id="wspro-intro" label=""/>
+	<label id="wspro-instruction-1" value=""/>
+	<description id="wspro-instruction-2"/>
+	<grid>
+		<columns>
+			<column/>
+			<column flex="1"/>
+		</columns>
+		<rows>
+			<row id="wspro-id" align="center">
+				<label class="label" value="&wspro.searchengine.id;:"/>
+				<textbox id="se_id" maxlength="5" flex="1"/>
+			</row>
+			<row id="wspro-name" align="center">
+				<label class="label" value="&mmsearch.settings.free.name;"/>
+				<textbox id="freesearchname" maxlength="250" flex="1" style="width: 230px; min-width: 230px"/>
+			</row>
+			<row id="wspro-url" align="center">
+				<label class="label" value="&mmsearch.settings.free.url;"/>
+				<textbox id="freesearchurl" maxlength="1000" flex="1"/>
+			</row>
+			<row id="wspro-type" align="center">
+				<label class="label" value="&mmsearch.settings.free.type;"/>
+				<menulist id="freesearchtype" flex="1">
+					<menupopup>
+						<menuitem id="freesearchtype_busin" label="&mmsearch.settings.free.type.business;"/>
+						<menuitem id="freesearchtype_compu" label="&mmsearch.settings.free.type.computer;"/>
+						<menuitem id="freesearchtype_educa" label="&mmsearch.settings.free.type.education;"/>
+						<menuitem id="freesearchtype_movie" label="&mmsearch.settings.free.type.movies;"/>
+						<menuitem id="freesearchtype_music" label="&mmsearch.settings.free.type.music;"/>
+						<menuitem id="freesearchtype_newss" label="&mmsearch.settings.free.type.news;"/>
+						<menuitem id="freesearchtype_refer" label="&mmsearch.settings.free.type.reference;"/>
+						<menuitem id="freesearchtype_shopp" label="&mmsearch.settings.free.type.shopping;"/>
+						<menuitem id="freesearchtype_other" label="&mmsearch.settings.free.type.other;"/>
+						<menuitem id="freesearchtype_clone" label="" hidden="true"/>
+					</menupopup>
+				</menulist>
+			</row>
+			<row id="wspro-shortcut" align="center">
+				<label class="label" value="&wspro.searchengine.shortcut;:"/>
+				<listbox id="se_shortcut" style="max-height: 75px" suppressonselect="true">
+					<listitem label="CTRL + SHIFT + A" value="CTRL + SHIFT + A"/>
+					<listitem label="CTRL + SHIFT + B" value="CTRL + SHIFT + B"/>
+					<listitem label="CTRL + SHIFT + C" value="CTRL + SHIFT + C"/>
+					<listitem label="CTRL + SHIFT + D" value="CTRL + SHIFT + D"/>
+					<listitem label="CTRL + SHIFT + E" value="CTRL + SHIFT + E"/>
+					<listitem label="CTRL + SHIFT + F" value="CTRL + SHIFT + F"/>
+					<listitem label="CTRL + SHIFT + G" value="CTRL + SHIFT + G"/>
+					<listitem label="CTRL + SHIFT + H" value="CTRL + SHIFT + H"/>
+					<listitem label="CTRL + SHIFT + I" value="CTRL + SHIFT + I"/>
+					<listitem label="CTRL + SHIFT + J" value="CTRL + SHIFT + J"/>
+					<listitem label="CTRL + SHIFT + K" value="CTRL + SHIFT + K"/>
+					<listitem label="CTRL + SHIFT + L" value="CTRL + SHIFT + L"/>
+					<listitem label="CTRL + SHIFT + M" value="CTRL + SHIFT + M"/>
+					<listitem label="CTRL + SHIFT + N" value="CTRL + SHIFT + N"/>
+					<listitem label="CTRL + SHIFT + O" value="CTRL + SHIFT + O"/>
+					<listitem label="CTRL + SHIFT + P" value="CTRL + SHIFT + P"/>
+					<listitem label="CTRL + SHIFT + Q" value="CTRL + SHIFT + Q"/>
+					<listitem label="CTRL + SHIFT + R" value="CTRL + SHIFT + R"/>
+					<listitem label="CTRL + SHIFT + S" value="CTRL + SHIFT + S"/>
+					<listitem label="CTRL + SHIFT + T" value="CTRL + SHIFT + T"/>
+					<listitem label="CTRL + SHIFT + U" value="CTRL + SHIFT + U"/>
+					<listitem label="CTRL + SHIFT + V" value="CTRL + SHIFT + V"/>
+					<listitem label="CTRL + SHIFT + W" value="CTRL + SHIFT + W"/>
+					<listitem label="CTRL + SHIFT + X" value="CTRL + SHIFT + X"/>
+					<listitem label="CTRL + SHIFT + Y" value="CTRL + SHIFT + Y"/>
+					<listitem label="CTRL + SHIFT + Z" value="CTRL + SHIFT + Z"/>
+					<listitem label="CTRL + ALT + A" value="CTRL + ALT + A"/>
+					<listitem label="CTRL + ALT + B" value="CTRL + ALT + B"/>
+					<listitem label="CTRL + ALT + C" value="CTRL + ALT + C"/>
+					<listitem label="CTRL + ALT + D" value="CTRL + ALT + D"/>
+					<listitem label="CTRL + ALT + E" value="CTRL + ALT + E"/>
+					<listitem label="CTRL + ALT + F" value="CTRL + ALT + F"/>
+					<listitem label="CTRL + ALT + G" value="CTRL + ALT + G"/>
+					<listitem label="CTRL + ALT + H" value="CTRL + ALT + H"/>
+					<listitem label="CTRL + ALT + I" value="CTRL + ALT + I"/>
+					<listitem label="CTRL + ALT + J" value="CTRL + ALT + J"/>
+					<listitem label="CTRL + ALT + K" value="CTRL + ALT + K"/>
+					<listitem label="CTRL + ALT + L" value="CTRL + ALT + L"/>
+					<listitem label="CTRL + ALT + M" value="CTRL + ALT + M"/>
+					<listitem label="CTRL + ALT + N" value="CTRL + ALT + N"/>
+					<listitem label="CTRL + ALT + O" value="CTRL + ALT + O"/>
+					<listitem label="CTRL + ALT + P" value="CTRL + ALT + P"/>
+					<listitem label="CTRL + ALT + Q" value="CTRL + ALT + Q"/>
+					<listitem label="CTRL + ALT + R" value="CTRL + ALT + R"/>
+					<listitem label="CTRL + ALT + S" value="CTRL + ALT + S"/>
+					<listitem label="CTRL + ALT + T" value="CTRL + ALT + T"/>
+					<listitem label="CTRL + ALT + U" value="CTRL + ALT + U"/>
+					<listitem label="CTRL + ALT + V" value="CTRL + ALT + V"/>
+					<listitem label="CTRL + ALT + W" value="CTRL + ALT + W"/>
+					<listitem label="CTRL + ALT + X" value="CTRL + ALT + X"/>
+					<listitem label="CTRL + ALT + Y" value="CTRL + ALT + Y"/>
+					<listitem label="CTRL + ALT + Z" value="CTRL + ALT + Z"/>
+				</listbox>
+			</row>
+			<row id="wspro-favicon" align="center">
+				<label id="notelabel" class="label" value="&wspro.searchengine.favicon;:"/>
+				<hbox flex="1" height="27px" style="min-height: 27px;"><image id="favicon" src="chrome://websearchpro/skin/websearchpro_toolbar_free_other.png" height="16px" width="16px" style="padding-top: 5px; padding-bottom: 6px; margin-left: 4px;"/><hbox flex="1"/><button id="browse" label="&wspro.searchengine.browse;" oncommand="WSProBrowseFavIcon();"/></hbox>
+			</row>
+		</rows>
+	</grid>	
+</groupbox>
+</dialog>

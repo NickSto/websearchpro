@@ -1,0 +1,691 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ckkrUuixOKGZe6uCvg469Q==
+SHA1-Digest: SWXxe5eWHtdt83jVWE3ZT82nIWw=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1pFstc8e8kUTQawhQFeKtQ==
+SHA1-Digest: RIvgnpaSrf3sQHa9tXP5wdDGnQs=
+
+Name: chrome/content/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6kUvaALLVnjFsQ6hYj/pRw==
+SHA1-Digest: +93rWUEmBp3OfyVtZobJKtgPXMs=
+
+Name: chrome/content/websearchpro/utils.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uQMSfJaK89sb2xJGIQJwVw==
+SHA1-Digest: 0usCJqjHPDzIT6B9hc5b1a6xtNU=
+
+Name: chrome/content/websearchpro/websearchproAboutOverlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /W+jZfYWBsHpsDiItazVKQ==
+SHA1-Digest: i/QTr7UnAAxuIpjpPUeC8BpL0xo=
+
+Name: chrome/content/websearchpro/websearchproclicktoloadsearchengines.x
+ html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eNq8pYzB94ZiNA6lAKA9sQ==
+SHA1-Digest: JiJuJcHhSs4Kvl52hC1rwC1zLVw=
+
+Name: chrome/content/websearchpro/websearchproloadingsearchengines.xhtml
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: F4fdriOjGnd7cejHMJ9ztQ==
+SHA1-Digest: hWfmtp0DHDyNXhbI88CIK8kACkw=
+
+Name: chrome/content/websearchpro/websearchproOverlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oFqsdYP2xz5E3U052kx8sw==
+SHA1-Digest: GyGRQfCMvEJmHN9v05aemeue1ds=
+
+Name: chrome/content/websearchpro/websearchproOverlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S3uROFL3pO6k23sy9Sf8Jg==
+SHA1-Digest: 9SQuMapl5JoUWDfTYzZlc0d9jr4=
+
+Name: chrome/content/websearchpro/websearchproquicktypesearch.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jOaHuQ+1V772B1Z4MrxKxA==
+SHA1-Digest: 1cdmCJXvkWyBoNJcCgi1TnCRjyY=
+
+Name: chrome/content/websearchpro/websearchproquicktypesearch.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: X6D+vLCjueI6mcZlLGXzSA==
+SHA1-Digest: H/xAxLOHth4fcqYLXI2sdeHBaJM=
+
+Name: chrome/content/websearchpro/websearchprosearchengine.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0ZzAhsDSITRwjr1azJVcZA==
+SHA1-Digest: XNy5zrasfITod4MLg8T1arPc04s=
+
+Name: chrome/content/websearchpro/websearchprosearchengine.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LuUm3Im3pIiMKHf4XdxWxg==
+SHA1-Digest: sglWS5W/9arU8ymV9tGRx+SWYzg=
+
+Name: chrome/content/websearchpro/websearchprosettings.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4VWcTOl6eMvR4OwdCDsjjA==
+SHA1-Digest: lnlHDHkmLLMcVUVt8FcuZTLU9Zg=
+
+Name: chrome/content/websearchpro/websearchprosettings.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 35PLgaI3pb+R/SgZeR2FhA==
+SHA1-Digest: G4JNb2Z9zl/1AhI2jYmyv/Abl80=
+
+Name: chrome/locale/af-ZA/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cSyeltXyJzEPclokbfJo9Q==
+SHA1-Digest: kgBtCWaek+Xm2z5cFRMbssDRRBg=
+
+Name: chrome/locale/af-ZA/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 65azR6/VY0fQ8Cqfo/cGVg==
+SHA1-Digest: D77dz74sOEjWne3rqw2He4tLWzQ=
+
+Name: chrome/locale/af-ZA/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d1d/miCCzMO30dvtn4HSmQ==
+SHA1-Digest: n3NVz5R+nsD7q6kmFxhDXQCRWas=
+
+Name: chrome/locale/ca-AD/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IbT3sRmhQ2w9P10wjhxTFw==
+SHA1-Digest: GnyCwRI59hIkRoz1MuW44Rybk4E=
+
+Name: chrome/locale/ca-AD/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wwcKUhtWPE3GDTehBFElsw==
+SHA1-Digest: YbsfylfJR11Unuoo/bdcT8iLB2M=
+
+Name: chrome/locale/ca-AD/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Fv1ANsZ9glSfNqw6MAElTA==
+SHA1-Digest: D2a/saoE1TMCNpOlHDi+j9Quyms=
+
+Name: chrome/locale/da/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zPTd+sUXHLkq7TVUUDwvBA==
+SHA1-Digest: p3KUxaHPCxIQLfzb/L8edRbqzAM=
+
+Name: chrome/locale/da/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: e+ccak8Fe5oIyARpFm1GTw==
+SHA1-Digest: lnzt/c4R3nPWoKOKy1gZyjBw7sM=
+
+Name: chrome/locale/da/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tcY5CsbR51G10Le5J77fDw==
+SHA1-Digest: yMPmNOjte2f2jgD0rENcblu5gP8=
+
+Name: chrome/locale/de/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VC+h1CBgtedib7nTjxgwqw==
+SHA1-Digest: yXHPa8vQpqEgqyXPlaAv8e8+Fqc=
+
+Name: chrome/locale/de/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GVlrpV5dX2N9VChD4PMa2Q==
+SHA1-Digest: Vkx5oQCYaCK1ymntOKE295Q9m8U=
+
+Name: chrome/locale/de/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 59o0oAoYUcf5vEa1Msq7TQ==
+SHA1-Digest: QLAWy7/oWCPARFvZgD7UzEMa1gY=
+
+Name: chrome/locale/en-US/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rkN/c8bvG44Q4uKvYtf8pQ==
+SHA1-Digest: 4l8Trni/1+M1CFk3xhmTuBL9ylQ=
+
+Name: chrome/locale/en-US/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UIqqyjzDAyQGZqYKyZPb1g==
+SHA1-Digest: acIskqVvx3LqKZYOBgdfYtHuJ6w=
+
+Name: chrome/locale/en-US/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Cqe96zDGxV8bDMM0TlgNKQ==
+SHA1-Digest: 2XbaBa6SRsamYYeUxC2yOQPnVfk=
+
+Name: chrome/locale/es-AR/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hxo79dIWK0xtgfx6AcJ6Jw==
+SHA1-Digest: mhGCvQzWgBOCNjivollZgg68XwE=
+
+Name: chrome/locale/es-AR/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GK2jlFQhxVk0qNYZ6/2mAw==
+SHA1-Digest: yUohqFyiH/DuMnZv6ovBbNSkIQ4=
+
+Name: chrome/locale/es-AR/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZSzkDvRnX53gfE15TuSRdA==
+SHA1-Digest: qUeyUutXTFdVc5ZPPn86kssAg6M=
+
+Name: chrome/locale/es-ES/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dwu2QXM4TN0OONt+oWeqog==
+SHA1-Digest: ELbPbu3VpLLF7bwHpYkQYMJjxgM=
+
+Name: chrome/locale/es-ES/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pFDqbw+L0bNe7xsMyWZfbg==
+SHA1-Digest: 644pAlX9XrbEJfxPdRpvj6RA/uY=
+
+Name: chrome/locale/es-ES/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NLlXyoh+XTlymr2iiljpAA==
+SHA1-Digest: FxCkL+ReE2LS10LaN+IaekuUJTE=
+
+Name: chrome/locale/fr/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ys412tYUxa8dp3IluZtn4A==
+SHA1-Digest: orjOHfOaMprHW90rKshMFw+UjYo=
+
+Name: chrome/locale/fr/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +XgwcvyRSCf6lpbqN4Z89g==
+SHA1-Digest: 9awHBbL+07sRpaZtQ2NoGEBt9K4=
+
+Name: chrome/locale/fr/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YdJvIt3JUGXlM09l05kudg==
+SHA1-Digest: JiH4ruEJ48r80aZcFQrWzUVAwjg=
+
+Name: chrome/locale/hr-HR/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tzxm9Y6ZBThXw0odsGkj8Q==
+SHA1-Digest: dne+AOX6d01U4tvO7OZQgEeYJmg=
+
+Name: chrome/locale/hr-HR/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dmtnWuag3jPRCQVZ4ey0WA==
+SHA1-Digest: DS0fuPYCAPdIyJ+n9L4hZB6epO8=
+
+Name: chrome/locale/hr-HR/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: z4HiePvCBSzZujj+CzawOQ==
+SHA1-Digest: IeSCv0x1gPnHoAQI/nZ2bwll6sc=
+
+Name: chrome/locale/it-IT/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xnoiYcjUG6mbRLUKFkMUgw==
+SHA1-Digest: nfiaQ5BPeVILIh9Gdd6RdCKGlUo=
+
+Name: chrome/locale/it-IT/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: riOs+A9wajxK0MiQX2t85g==
+SHA1-Digest: MoBgom6+Yh+I+yFOJVmqv+Y/7UA=
+
+Name: chrome/locale/it-IT/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fjbeWYWZijiN9Cx+cQAk0g==
+SHA1-Digest: uKz5fBnwiGC+eNEJUQkXSHVoSgc=
+
+Name: chrome/locale/ja-JP/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y74zzLwkdYM82VRuuVublw==
+SHA1-Digest: iARRddwItUu0FHWkoTdwSicosf4=
+
+Name: chrome/locale/ja-JP/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7MEdroxAPT6e9JS5Q9JCPQ==
+SHA1-Digest: qFRq37SuTkVSoi9ubrVGLzX3P9k=
+
+Name: chrome/locale/ja-JP/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8MkUwNtZt2ongSb7aKcs4Q==
+SHA1-Digest: kg551pUbgs1oFnpjdFRpCI76dgs=
+
+Name: chrome/locale/ko-KR/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GfD4xOzFLdlZrJlQsP9dbA==
+SHA1-Digest: s9YSg2fKDPMLoHApRd1rtUpj4Eo=
+
+Name: chrome/locale/ko-KR/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qyjv0H1iTkzJkhgmf7r+Dw==
+SHA1-Digest: khI1HItclabSDUx2Se1KCn2n2GI=
+
+Name: chrome/locale/ko-KR/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0lLrG9DHXVbrNu09sy2vRQ==
+SHA1-Digest: qAqtY+Dmo756nJ4GGyL0C2M8a8o=
+
+Name: chrome/locale/nl/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uUb/w7MGwqDx+Y5lYk/RKw==
+SHA1-Digest: pf7h/kRFpYmbtnn5jrySl6KiPyA=
+
+Name: chrome/locale/nl/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tf1Md0V7mK14mvDQ9WOwYw==
+SHA1-Digest: +si6dS1qQUCLwpEkhUrd6HTfWa8=
+
+Name: chrome/locale/nl/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0St+3rIBJ4hD+lBcubAJbA==
+SHA1-Digest: cQZWXdgCAxwe4YynJTiFK5HivuA=
+
+Name: chrome/locale/pl/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jUeJLcZfIMoXTzEwZAS5eA==
+SHA1-Digest: TK2LZZfga1N9nF8uWwWfmZyE8xc=
+
+Name: chrome/locale/pl/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DSlKeilo9YiWiu7cDOFZHQ==
+SHA1-Digest: GD/kwCX9c0VEf5qiU9q3w8I2wjA=
+
+Name: chrome/locale/pl/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6jDdQaLIMgdmzvP5D1UdoA==
+SHA1-Digest: j0RhKEA9Iu9vkJRgJN01OKKrlYk=
+
+Name: chrome/locale/pt-BR/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pCDPGDFc173Gv3Mepb0V0g==
+SHA1-Digest: ilVPfBQ0uRhhuXzuX9CscDaWgWE=
+
+Name: chrome/locale/pt-BR/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: B1rYg7nkHjH1MD5Vdrqoxg==
+SHA1-Digest: z0xo1MU6nx5SUN5b27jq3qO8HcM=
+
+Name: chrome/locale/pt-BR/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q56H27ghWElecziC9GRgVA==
+SHA1-Digest: HvaYhYWh0KpmpVCFg2H9/I4M89E=
+
+Name: chrome/locale/pt-PT/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h8jYjhWqDfkz+ReNwyikgg==
+SHA1-Digest: 8iVubNPYYf+ETp5iPAsapAzkqxU=
+
+Name: chrome/locale/pt-PT/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zszsgObe0mukE2EdwW6Ckg==
+SHA1-Digest: j2ITlpC2VpiG3IlLgk0YfWNVrXw=
+
+Name: chrome/locale/pt-PT/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KfVM0J+i8/Wf1YokBDHsCg==
+SHA1-Digest: uTdJXwEVOy4BU3ZwwJJe/BzQRYM=
+
+Name: chrome/locale/ru-RU/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MkktIcfVwFRNrHte58pDnQ==
+SHA1-Digest: Xq9NPzroyWql8iV1PQnT6CvA164=
+
+Name: chrome/locale/ru-RU/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /S3m2/GresA1aIOnm7PZBw==
+SHA1-Digest: kdYJ6FGC44MTYl+Flxg+7xTj1+M=
+
+Name: chrome/locale/ru-RU/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5EzeSYvawHC40jTxEslSQA==
+SHA1-Digest: ZpiiU7ZR/beJcr0DDVDvegwHO64=
+
+Name: chrome/locale/sk-SK/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kl1pZ6SD8Oz+lfaLQLDeeg==
+SHA1-Digest: xDaDhgtYBi3nyzcaQEqjGrP3taI=
+
+Name: chrome/locale/sk-SK/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wgGyeYAX+3XbbPfd7M8tZw==
+SHA1-Digest: 4UwukM22iERF9ieyWawE63uHeA0=
+
+Name: chrome/locale/sk-SK/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7Bc6tw/ETFbCPj0NKhtbbQ==
+SHA1-Digest: TAd+S+sVhK8g8jTWP+XBi1hBM6g=
+
+Name: chrome/locale/sv-SE/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cPTQVkeRlSiuYdbPRP3R8w==
+SHA1-Digest: nHvBj8H3p84NHDY2kxFRQh34Ec8=
+
+Name: chrome/locale/sv-SE/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ++lE6rDnnine7CISivdIwQ==
+SHA1-Digest: kMvxZfznhpltsYT49uSOhwZnf8M=
+
+Name: chrome/locale/sv-SE/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qfSTmDWLjYbPFng9pugUaA==
+SHA1-Digest: T5Nmi2biJ4biiFYgJsILpmCHOLY=
+
+Name: chrome/locale/tr-TR/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r3aG85D8qmcG8d1hLBUmPQ==
+SHA1-Digest: yAyQAPqvFRGysM6jZzhaSiCIJSw=
+
+Name: chrome/locale/tr-TR/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m925ZIaJ7f4HYCll9hs7Rw==
+SHA1-Digest: lrdIW58so5Uk0xV6bMa02E5qhDo=
+
+Name: chrome/locale/tr-TR/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eV2HeWy1ne10c7G/14CmEw==
+SHA1-Digest: 6d3MbphVLWkVL23jAnj+OyhpqAM=
+
+Name: chrome/locale/uk-UA/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uLjPBdZmUISp9bmcc1xBhw==
+SHA1-Digest: ZyD26MZrkhjKeXZpZfOBgwVptew=
+
+Name: chrome/locale/uk-UA/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UGiqITrAE+QrZqTJL0H3rQ==
+SHA1-Digest: dMkkOYRlnuy4d/KTtsOXiwKvK4A=
+
+Name: chrome/locale/uk-UA/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IkE5/Z+Nil2/jHWyIFzHoQ==
+SHA1-Digest: LblDJn+mBdXDueMEY/LQkaBsowY=
+
+Name: chrome/locale/zh-CN/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BX05hLw7+ON4Cu1UZK4Vmg==
+SHA1-Digest: xqiCbn/dN93oK+yEVJ94IHjqGIA=
+
+Name: chrome/locale/zh-CN/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TrgFUwrSPUyyA1wdW2N98w==
+SHA1-Digest: uzwNu/7JBs7dLQLpuJT5UbFk7hQ=
+
+Name: chrome/locale/zh-CN/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MogOb4udMGOZGUXm9NQpuw==
+SHA1-Digest: +Nd9an0cZWb5G6EdpJrovIQ1nv4=
+
+Name: chrome/locale/zh-TW/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kGnAz5AFRGnS/15PQA/qug==
+SHA1-Digest: C1fSaYGdlW0eI6K/6potwpNGFS8=
+
+Name: chrome/locale/zh-TW/websearchpro/websearchpro.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6VQ1+UeZ27m2h3FkgMoTjQ==
+SHA1-Digest: 8N/+gx59d4LLO2URGHOpNa9qleo=
+
+Name: chrome/locale/zh-TW/websearchpro/websearchpro.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JHWvwMD1gFlsNm/49eweRg==
+SHA1-Digest: boDsWr+86MJ+rLJsMxC9w8h+rPg=
+
+Name: chrome/skin/classic/websearchpro/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i6Z9XKTv7Xhjit1En8aICw==
+SHA1-Digest: ZdhPy45SXHaelWD3HPtbECDl1rc=
+
+Name: chrome/skin/classic/websearchpro/websearchpro.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hMFmWQQVUXmVnbNLE2ljFw==
+SHA1-Digest: CBpgBLFABlq0tDu0bYhyCFufpxY=
+
+Name: chrome/skin/classic/websearchpro/websearchpro.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hfHC0ByiMrAF205MPDTkCg==
+SHA1-Digest: GB3Q90RuI7MXzPceu+y0ykp2+2U=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_about.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fd5/ryjKxJATkPn3H0M10A==
+SHA1-Digest: a5KVUOslRpsyskCIwIIMNiwgS5M=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_addgroup.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zGej5W4SaNZfULnzBkYdvA==
+SHA1-Digest: yWVaGWK+BnwRyCkN5R/QBV5P0yA=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_arrow.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: joPhw6Mg0g9NZaZ/FcYuNw==
+SHA1-Digest: Ua919qwVOjJ3dNcVvqkaMQSEW94=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2+aBviY6NGC4BJg6+e9isw==
+SHA1-Digest: f3tjtcnVSXexzs7KcxgobE7KWfw=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_dend_off.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Opb8eMRijlo7cRzW4cPwEQ==
+SHA1-Digest: Icmh4Fu8wIAFCV4xB7mKcEOSpPk=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_dend_off_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IJteE2NcUffh+o9WPWvlnQ==
+SHA1-Digest: gM0/rUmukJk0ZiVmmqr98M0ic+A=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_dend_on.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Sn0wQPyaMALe0yhHbog3Pw==
+SHA1-Digest: ABDWF5/1ODsThJM7F5rMZb50EhI=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_dend_on_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: q3Vh62q5XBjHALro2YUtlw==
+SHA1-Digest: 3rR9hRbNTE+Bn/6kuMetLzUq18k=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_editkey.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +6O/E/tJrhJolV+sDKM6dg==
+SHA1-Digest: 9KaKlH8vMNc1H1qRQlgHUI770OA=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_editlabel.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: K5Pwxdx2YqZqrGf/4KtCdA==
+SHA1-Digest: /op5gvpMXgEIeqDMadB7cAvgAwo=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_editsearchengine.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LhJgLD/aC6l5W013F1deRA==
+SHA1-Digest: k68Pa3C2dFsut8/iXypQrDF5G5E=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_editsearchengine_dis
+ abled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /waWf1V3g4iNxpPIISfABw==
+SHA1-Digest: X9A6Gg/DzWgmRSM5s6jXXxwB+Aw=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_export.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3ODk6f/C4jFcsuAtLqZzqg==
+SHA1-Digest: q/VrAgWJJIUGZxbT16LV+JdxkSE=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_go.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ymNMkjncHPHhKOXp8U/F/g==
+SHA1-Digest: P8pTKZ9enSPAx+qJIXSWfJ5XOHU=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_go_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mHysAsUL4XcdGHrAlxYsdw==
+SHA1-Digest: k8knTxWpDAF7VT3yk7npdIidflU=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_import.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NiUrpdBB6cDGKtAlwXvryg==
+SHA1-Digest: i43jy89OgW4kvcnqGIAvBZ54tOA=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_movedown.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gXWX2NtYBH/LLLgEidDqWg==
+SHA1-Digest: DH6/SCBO1ILQHyaHiCC9fnY0xis=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_moveup.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: goin4Mm0FyZ0QSFQ92mBuA==
+SHA1-Digest: m7S5P9mo5CFsw2y0H70snkoh/2Q=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_options.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6pGrfyXY6Uob7jx6vR22pg==
+SHA1-Digest: P4e3Md7KoSwzAk3O7H2Z8RfMWLk=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_options_dendzones.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dQX+7Pc3loznQv7+/MWmdg==
+SHA1-Digest: 5c0dT+jJApmlDxOULctsEF6n15k=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_options_display.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W78DsroiXrWrFafC6IGhsg==
+SHA1-Digest: Wpc3QApNoGJ8RTdz0AXs9Fk70Zg=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_options_general.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vyCiqqwomBsSGIszyf3djA==
+SHA1-Digest: qGnQKr5yOZnjxfnOtqQT9efJ2vg=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_options_searchengine
+ s.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6gTVhFHgeyCYFfTwY8dyjQ==
+SHA1-Digest: wGY8Zf8yuSP4ZkOJYSNO7RIrJK8=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_qts.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8neUtu6OGwmKcaSAyLXzyQ==
+SHA1-Digest: XLxSU+iDTmS2Vu9UjHTH5kySxoU=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_qts_large.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZsjyVb3W7ooQzIMSIBX+Dw==
+SHA1-Digest: vGUPVX12GCES/NyaS9wY856xdzk=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_remove.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z+/yfE87C7DGI7xo2Op3Dw==
+SHA1-Digest: XPRAWfomsKI/PVCGAtJRMC8PE0w=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_remove_disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: e2OsU0J370ZJ6ixMSYGB2A==
+SHA1-Digest: RxmDxFQn4Mdfsq4xqb6UQXsAA0o=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_report.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WzSoto0fJVHy7RqQ9ZvwTw==
+SHA1-Digest: U2eX4fmv5da//AJF7vNXzXAivHk=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_small.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KalXrwDjY3+9YXorXt406A==
+SHA1-Digest: JwX/r28qg0ni7TtH7BCBIOABVsM=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_sortaz.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /KeaOvssyvD2fUvVc2Gq+Q==
+SHA1-Digest: MqWh5zygemvM7YhLvdicgupjg8Y=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_sortza.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mbCnAzYs+P+1DiOVSWO4wg==
+SHA1-Digest: AV0zSFdsX/l9CieZ7k4qR/hv8B4=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_splitter.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9Eqlb6jb20b8KULHWySpnQ==
+SHA1-Digest: /x6DzHe7sQrzyK9g7Q6laI/ZG14=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_suggest.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2TwbTsnvXdVrPfa4+miqWQ==
+SHA1-Digest: 7TdmXwKn9ttlmAtLhhVorTR7fIE=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_suggest_private.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4WYKKW1KFpHGSvXbF/Ft4A==
+SHA1-Digest: FCzzkKJFBnyvADSagjik9MaIBvA=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_busines
+ s.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y8Cxn6+RKvk8AEz8MiKLww==
+SHA1-Digest: RgqQsbw7OXD+BJ75jvZ8uXehJ2g=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_compute
+ r.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HNeDBATGTJgORGOQuMQNaQ==
+SHA1-Digest: LWjnvjcB20B7YNo3IMyWKVYWKkI=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_educati
+ on.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IXplF1ld4GoNyo9GA2njOA==
+SHA1-Digest: dgfTs6bOonN6g4howtD53oE5kpA=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_favouri
+ tes.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ufp2kgFB0zgG2c508TgB7Q==
+SHA1-Digest: AB/+FPejYx1QFjlY3akvAbWsmws=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_movie.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: widjGDYJ54x9j1cVlubqng==
+SHA1-Digest: AnsJzIZy1cCgZ16EATXIE8QFWzY=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_music.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YMxxYLVUXPNCySsGY65pCg==
+SHA1-Digest: 49aEAVJzUnzEkcqlWUOIOM80LZ8=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_news.pn
+ g
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zej3c867ltfQuf6Wt8N9Zg==
+SHA1-Digest: SAQ3VjT8m3BGpR+GEZaC4tnxiHo=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_other.p
+ ng
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KzIctddKqB6gJk+FV/45pw==
+SHA1-Digest: n/E/QEzb27WG+Zv46c7QSSgHPMw=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_referen
+ ce.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dSQuV/uapVg8WfbMIHFfgA==
+SHA1-Digest: xJ8D+6DcG2MSkx6/L7ldQZGfsQU=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_toolbar_free_shoppin
+ g.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yCgrWDAORtvqzUDVYiK81g==
+SHA1-Digest: IyRdYSDtxQeXspmlR6Ti0pYdznE=
+
+Name: chrome/skin/classic/websearchpro/websearchpro_update.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7olbb9ScDsrNozwWS4vTgw==
+SHA1-Digest: kB9KieIQIAg3CfYAxq4LD0oHp00=
+
+Name: components/nsWSProSuggestions.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PdLMUzuaTrHhXf540pKY1A==
+SHA1-Digest: M6V+UnV6/0d3DGB3kyQ8hWrHHB8=
+
+Name: defaults/preferences/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VAquojWxLNNKlYUMr18llg==
+SHA1-Digest: ZuRKN505NLNjyHSXKQDglaocBhg=
+
+Name: license.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6YKV3vbsR39713QIT4AzXg==
+SHA1-Digest: u3d1//R6zgectmKq5fRoXXfW7jg=
+

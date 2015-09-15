@@ -1,0 +1,191 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+#MMSearchTBButton {background-repeat: no-repeat; max-width: 16px; max-height: 16px; min-width: 16px; min-height: 16px; margin-top: 2px; margin-bottom: 2px}
+#mmsearchTools {list-style-image: url('chrome://websearchpro/skin/websearchpro_small.png');}
+#mmsearchToolsSearch {list-style-image: url('chrome://websearchpro/skin/websearchpro_small.png');}
+#mmsearchToolsQTS {list-style-image: url('chrome://websearchpro/skin/websearchpro_qts.png');}
+#mmsearchToolsOptions {list-style-image: url('chrome://websearchpro/skin/websearchpro_options.png');}
+#mmsearchToolsExport {list-style-image: url('chrome://websearchpro/skin/websearchpro_export.png');}
+#mmsearchToolsImport {list-style-image: url('chrome://websearchpro/skin/websearchpro_import.png');}
+
+#mmsearch-context {list-style-image: url('chrome://websearchpro/skin/websearchpro_small.png');}
+#wspro-context-suggest {list-style-image: url('chrome://websearchpro/skin/websearchpro_suggest.png'); background-repeat: no-repeat}
+#wspro-context-suggest_private {list-style-image: url('chrome://websearchpro/skin/websearchpro_suggest_private.png'); background-repeat: no-repeat}
+
+#MMSearchTBGOButton {list-style-image: url('chrome://websearchpro/skin/websearchpro_go_large.png');}
+toolbar[iconsize="small"] #MMSearchTBGOButton {list-style-image: url('chrome://websearchpro/skin/websearchpro_go.png');}
+
+#MMSearchTBQTSButton {list-style-image: url('chrome://websearchpro/skin/websearchpro_qts_large.png');}
+toolbar[iconsize="small"] #MMSearchTBQTSButton {list-style-image: url('chrome://websearchpro/skin/websearchpro_qts.png');}
+
+#WSProTBToggleDenD {list-style-image: url('chrome://websearchpro/skin/websearchpro_dend_on_large.png');}
+toolbar[iconsize="small"] #WSProTBToggleDenD {list-style-image: url('chrome://websearchpro/skin/websearchpro_dend_on.png');}
+#WSProTBToggleDenD[dendon="false"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_dend_off_large.png');}
+toolbar[iconsize="small"] #WSProTBToggleDenD[dendon="false"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_dend_off.png');}
+
+#MMSearchTBResizer, #TBIMMSearchTBResizer {min-height: 22px; min-width: 11px; background-image: url('chrome://websearchpro/skin/websearchpro_splitter.png'); padding-bottom: 2px}
+#MMSearchToolbarContainer splitter, #TBIMMSearchTBResizer splitter {border: none; background-color: transparent;}
+
+#sbp-wspro-addengine .statusbarpanel-text {display: none;}
+#sbp-wspro-addengine {list-style-image: url('chrome://websearchpro/skin/websearchpro_suggest.png');}
+
+#mmsearch-context menuitem, #mmsearchpopupsearchengine menuitem {background-repeat: no-repeat !important}
+
+.mmsearch_freesearch[fsetype="movie"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_movie.png')}
+.mmsearch_freesearch[fsetype="music"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_music.png')}
+.mmsearch_freesearch[fsetype="other"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_other.png')}
+.mmsearch_freesearch[fsetype="compu"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_computer.png')}
+.mmsearch_freesearch[fsetype="educa"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_education.png')}
+.mmsearch_freesearch[fsetype="newss"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_news.png')}
+.mmsearch_freesearch[fsetype="refer"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_reference.png')}
+.mmsearch_freesearch[fsetype="shopp"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_shopping.png')}
+.mmsearch_freesearch[fsetype="busin"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_business.png')}
+.mmsearch_freesearch[fsetype="favou"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_favourites.png')}
+
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="movie"], .mmsearch_freesearch[fsetype="movie"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_movie.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="music"], .mmsearch_freesearch[fsetype="music"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_music.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="other"], .mmsearch_freesearch[fsetype="other"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_other.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="compu"], .mmsearch_freesearch[fsetype="compu"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_computer.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="educa"], .mmsearch_freesearch[fsetype="educa"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_education.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="newss"], .mmsearch_freesearch[fsetype="newss"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_news.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="refer"], .mmsearch_freesearch[fsetype="refer"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_reference.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="shopp"], .mmsearch_freesearch[fsetype="shopp"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_shopping.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="busin"], .mmsearch_freesearch[fsetype="busin"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_business.png')}
+#MMSearchTBTextbox .mmsearch_freesearch[fsetype="favou"], .mmsearch_freesearch[fsetype="favou"][fsemenu="context"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_toolbar_free_favourites.png')}
+
+.mmsearch_options {list-style-image: url('chrome://websearchpro/skin/websearchpro_options.png');}
+#wspro-se-context-edit {list-style-image: url('chrome://websearchpro/skin/websearchpro_editsearchengine.png')}
+#wspro-se-context-remove {list-style-image: url('chrome://websearchpro/skin/websearchpro_remove.png')}
+
+menu[hasbackgroundimage="true"], menuitem[hasbackgroundimage="true"] {background-position: left; background-repeat: no-repeat}
+.mmsearch_freesearch image, .mmsearch_freesearch-group image {max-width: 16px; max-height: 16px; min-width: 16px; min-height: 16px;}
+.mmsearch_freesearch-group {background-image: none !important; font-weight: bold;}
+
+toolbar[iconsize="small"] #MMSearchTBTextbox {margin-top: 1px !important;}
+
+#MMSearchTBTextbox {
+    border: 1px solid;
+    -moz-border-top-colors: rgb(150, 150, 157);
+    -moz-border-right-colors: rgb(150, 150, 157);
+    -moz-border-bottom-colors: rgb(150, 150, 157);
+    -moz-border-left-colors: rgb(150, 150, 157);
+    -moz-appearance: none;
+    -moz-border-radius: 4px;
+}
+
+#MMSearchTBTextbox stack {padding-left: 2px;}
+#MMSearchTBTextbox #dropmarker {list-style-image: url("chrome://websearchpro/skin/websearchpro_arrow.png"); -moz-margin-start: 18px; margin-top: 1px !important}
+#MMSearchTBTextbox tooltip {background-color: #33DD00; padding: 0px}
+#MMSearchTBTextbox[hasfocus="false"] {color: GrayText;}
+
+#MMSearchTBTextbox .textbox-input-box, #MMSearchTBTextbox html|*.textbox-input {margin-left: 0px !important; padding-left: 3px}
+
+.searchbar-engine-button-top {list-style-image: url("chrome://browser/skin/Search-provider-bkgnd.png"); -moz-image-region: rect(1px, 32px, 12px, 3px); height: 10px;}
+.searchbar-engine-button-mid-top {background-image: url("chrome://browser/skin/Search-provider-mid-top.png");}
+.searchbar-engine-button-mid-bottom {background-image: url("chrome://browser/skin/Search-provider-mid-bottom.png");}
+.searchbar-engine-button-bottom {list-style-image: url("chrome://browser/skin/Search-provider-bkgnd.png"); -moz-image-region: rect(11px, 32px, 21px, 3px); height: 10px;}
+
+#mmsearchpopupsearchengine:hover .searchbar-engine-button-top {-moz-image-region: rect(0px, 64px, 10px, 32px);}
+#mmsearchpopupsearchengine:hover .searchbar-engine-button-mid-top, #mmsearchpopupsearchengine:hover .searchbar-engine-button-mid-bottom {background-position: -32px 0px;}
+#mmsearchpopupsearchengine:hover .searchbar-engine-button-bottom {-moz-image-region: rect(12px, 64px, 22px, 32px);}
+#mmsearch-window .colorpickertile {width: 24px}
+#MMSearchToolbarContainer {margin: 0px; padding: 0px}
+toolbar[iconsize="small"] #MMSearchToolbarContainer {margin: 1px 1px 0px 1px;} 
+
+toolbar[mode="full"] #MMSearchToolbarContainer {padding-top: 5px; padding-bottom: 6px}
+toolbar[iconsize="large"] #MMSearchToolbarContainer {padding-top: 5px; padding-bottom: 6px}
+
+#mmsearch-window .label	{text-align: right; margin-top: 3px}
+
+#mmsearch-window .overviewrow[difrow="true"] {background-color: rgb(244,244,244);}
+#mmsearch-window .overviewrow {color: black; font: 9pt Verdana; max-height: 24px; background-color: White;}
+#mmsearch-window .overviewrow:hover {background-color: rgb(83,132,212); color: HighlightText}
+#mmsearch-window .overviewrow[dragstate="top"], .mmsearch_freesearch[dragstate="top"] {border-top: 1px solid black}
+#mmsearch-window .overviewrow[dragstate="bottom"], .mmsearch_freesearch[dragstate="bottom"] {border-bottom: 1px solid black}
+#mmsearch-window .overviewrow[selected="true"] {background-color: rgb(83,132,212); color: HighlightText}
+
+#mmsearch-window spacer {width: 7px}
+
+#mmsearch-window .remove {list-style-image: url('chrome://websearchpro/skin/websearchpro_remove.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px;}
+#mmsearch-window .remove[disabled="true"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_remove_disabled.png');}
+#mmsearch-window .editlabel {list-style-image: url('chrome://websearchpro/skin/websearchpro_editlabel.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .editkey {list-style-image: url('chrome://websearchpro/skin/websearchpro_editkey.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .editsearchengine {list-style-image: url('chrome://websearchpro/skin/websearchpro_editsearchengine.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px;}
+#mmsearch-window .editsearchengine[disabled="true"] {list-style-image: url('chrome://websearchpro/skin/websearchpro_editsearchengine_disabled.png');}
+#mmsearch-window .report {list-style-image: url('chrome://websearchpro/skin/websearchpro_report.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+
+#mmsearch-window .sortaz {list-style-image: url('chrome://websearchpro/skin/websearchpro_sortaz.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .sortza {list-style-image: url('chrome://websearchpro/skin/websearchpro_sortza.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .update {list-style-image: url('chrome://websearchpro/skin/websearchpro_update.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .suggest {list-style-image: url('chrome://websearchpro/skin/websearchpro_suggest.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .suggest_private {list-style-image: url('chrome://websearchpro/skin/websearchpro_suggest_private.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .addgroup {list-style-image: url('chrome://websearchpro/skin/websearchpro_addgroup.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .import {list-style-image: url('chrome://websearchpro/skin/websearchpro_import.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+#mmsearch-window .export {list-style-image: url('chrome://websearchpro/skin/websearchpro_export.png'); min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; margin-right: 3px}
+
+#mmsearch-window  button[disabled="true"] .button-icon {opacity: 0.4;}
+
+#mmsearch-window scrollbox {background-color: white;}
+
+#mmsearch-window  button[wsprotype="imagebutton"] {min-width: 24px !important; max-width: 24px !important; background-image: none !important; -moz-appearance: button; padding: 0; margin: 0; border: 1px solid black; -moz-appearance: none; background-color: transparent; border: none;}
+#mmsearch-window  button[wsprotype="imagebutton"] > .button-box {padding-bottom: 0px !important; padding-left: 0px !important; padding-top: 0px !important;}
+#mmsearch-window  button[wsprotype="imagebutton"] * {background-image: none !important}
+
+#mmsearch-window  .favicon {margin-left: 5px; max-height: 16px; max-width: 16px}
+
+#mmsearch-window .overviewlist {min-width: 450px; background-color: white;}
+
+#mmsearchcontextsearchengines menu > .menu-right > image, #mmsearchpopupsearchengine menu > .menu-right > image {padding: 4px 5px 4px 7px}
+
+#clientBox[extensionname="Web Search Pro"] {background: #FFFFFF url("chrome://websearchpro/skin/websearchpro_about.gif") no-repeat center center !important; color: #000000;}
+#clientBox[extensionname="Web Search Pro"] #extensionContributors {border-top: none}
+
+.autocomplete-treebody::-moz-tree-cell(suggesthint) {border-top: 1px solid GrayText;}
+
+radio[pane=pp_searchengines] {list-style-image: url("chrome://websearchpro/skin/websearchpro_options_searchengines.png")}
+radio[pane=pp_general] {list-style-image: url("chrome://websearchpro/skin/websearchpro_options_general.png")}
+radio[pane=pp_dropzones] {list-style-image: url("chrome://websearchpro/skin/websearchpro_options_dendzones.png")}
+radio[pane=pp_display] {list-style-image: url("chrome://websearchpro/skin/websearchpro_options_display.png")}
+
+#mmsearch-window .paneButtonIcon {padding-left: 26px; padding-right: 26px; width: 100px;}
+.WSProlistBox {-moz-appearance: listbox; margin: 2px 4px; border: 2px solid; -moz-border-top-colors: ThreeDShadow ThreeDDarkShadow; -moz-border-right-colors: ThreeDHighlight ThreeDLightShadow; -moz-border-bottom-colors: ThreeDHighlight ThreeDLightShadow; -moz-border-left-colors: ThreeDShadow ThreeDDarkShadow; background-color: -moz-Field;}
+
+#mmsearch-window .vspacer {height: 14px;}
+
+#mmsearch-window .wspro-link {color: #0000FF; text-decoration: none; cursor: pointer; margin-top: 0px; margin-bottom: 0px;}
+#mmsearch-window .wspro-link:hover {text-decoration: underline;}
+
+#wspro-qts {font: 9pt verdana; border: solid 1px #646464;}
+#wspro-qts .vbox-qts {padding: 5px;}
+#wspro-qts .close {cursor: default; list-style-image: url('chrome://websearchpro/skin/websearchpro_close.png'); padding: 1px;}
+#wspro-qts .leftlabel {text-align: right; padding-top: 3px; min-width: 100px;}
+#wspro-qts textbox {min-width: 275px; -moz-appearance: none; border: solid 1px #646464; -moz-border-top-colors: #646464; -moz-border-right-colors: #646464; -moz-border-bottom-colors: #646464; -moz-border-left-colors: #646464;}
+#wspro-qts .searchterms {padding: 2px 2px 3px; min-height: 20px;}
+#wspro-qts #searchengine, #dynamicsearchparams textbox {margin-right: 30px;}
+#wspro-qts listbox {overflow: auto; min-width: 375px; min-height: 150px; border: solid 1px #646464; -moz-border-top-colors: #646464; -moz-border-right-colors: #646464; -moz-border-bottom-colors: #646464; -moz-border-left-colors: #646464; -moz-appearance: none;}
+#wspro-qts .listcell-label {text-align: left; padding: 1px;}
+#wspro-qts .listcell-icon {max-height: 16px; max-width: 16px}
+#wspro-qts listitem[selected="true"] {background-color: Highlight; color: HighlightText;}
+#wspro-qts listitem[disabled="true"] .listcell-icon {opacity: 0.4;}
+#wspro-qts textbox * {background-color: white !important;}
+#wspro-qts .autocomplete-treebody::-moz-tree-cell-text(suggesthint, treecolAutoCompleteComment), #wspro-qts .autocomplete-treebody::-moz-tree-cell-text(suggestfirst, treecolAutoCompleteComment) {color: GrayText; font-size: 7pt;}
+#wspro-qts .qts-searchengine .listcell-iconic {padding-left: 14px;}
+#wspro-qts #dynamicsearchparams {height: 100px; overflow-x: hidden; overflow-y: auto;}
+
+#mmsearch-window .dropzone_small {opacity:0.6; border: solid 1px rgb(124,124,124); width: 55px; height: 20px;}
+#mmsearch-window .dropzone_small[dragstate="1"], #mmsearch-window .dropzone_small:hover {opacity:0.8;}
+#mmsearch-window .dropzone_small[dragstate="2"] {opacity:1.0;}
+#mmsearch-window .dropzone_small image {max-width: 55px; padding: 1px 17px 1px 17px;}
+
+#mmsearch-window #dz_0_3, #mmsearch-window #dz_1_3, #mmsearch-window #dz_2_3 {border-bottom: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_3_0, #mmsearch-window #dz_3_1, #mmsearch-window #dz_3_2 {border-right: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_0_4, #mmsearch-window #dz_1_4, #mmsearch-window #dz_2_4, #mmsearch-window #dz_3_4 {border-top: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_4_0, #mmsearch-window #dz_4_1, #mmsearch-window #dz_4_2, #mmsearch-window #dz_4_3 {border-left: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_3_3 {border-right: dashed 1px rgb(205,32,32); border-bottom: dashed 1px rgb(205,32,32)}
+
+#mmsearch-window #dz_0_5, #mmsearch-window #dz_1_5, #mmsearch-window #dz_2_5, #mmsearch-window #dz_3_5, #mmsearch-window #dz_4_5 {border-bottom: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_5_0, #mmsearch-window #dz_5_1, #mmsearch-window #dz_5_2, #mmsearch-window #dz_5_3, #mmsearch-window #dz_5_4 {border-right: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_0_6, #mmsearch-window #dz_1_6, #mmsearch-window #dz_2_6, #mmsearch-window #dz_3_6, #mmsearch-window #dz_4_6, #mmsearch-window #dz_5_6 {border-top: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_6_0, #mmsearch-window #dz_6_1, #mmsearch-window #dz_6_2, #mmsearch-window #dz_6_3, #mmsearch-window #dz_6_4, #mmsearch-window #dz_6_5 {border-left: dashed 1px rgb(205,32,32)}
+#mmsearch-window #dz_5_5 {border-right: dashed 1px rgb(205,32,32); border-bottom: dashed 1px rgb(205,32,32)}

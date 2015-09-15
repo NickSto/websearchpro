@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - 搜尋引擎 &amp; 設定">
+<!ENTITY wspro.menuitem.options "搜尋引擎 &amp; 設定">
+<!ENTITY wspro.menuitem.qts "快速搜尋">
+<!ENTITY wspro.menuitem.qts.tooltip "開啟「彈出式快速搜尋框」">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "名稱:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "類型:">
+<!ENTITY mmsearch.settings.free.type.music "音樂">
+<!ENTITY mmsearch.settings.free.type.movies "電影">
+<!ENTITY mmsearch.settings.free.type.other "其他">
+<!ENTITY mmsearch.settings.free.type.computer "電腦 / 科技">
+<!ENTITY mmsearch.settings.free.type.education "教育">
+<!ENTITY mmsearch.settings.free.type.news "新聞">
+<!ENTITY mmsearch.settings.free.type.reference "百科全書 / 字典">
+<!ENTITY mmsearch.settings.free.type.shopping "購物">
+<!ENTITY mmsearch.settings.free.type.business "商業">
+<!ENTITY mmsearch.search "搜尋">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "推薦一個搜尋引擎">
+<!ENTITY mmsearch.settings.free.available.private "新增一個私人搜尋引擎">
+<!ENTITY mmsearch.settings.free.available.loading "載入中...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "顯示搜尋引擎">
+<!ENTITY wspro.settings.general "一般">
+<!ENTITY wspro.settings.general.search "搜尋選項">
+<!ENTITY wspro.settings.general.search.clearsearchbox "每次搜尋後就清除搜尋框中的關鍵字">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "重複使用原先 Web Search Pro 所開啟的分頁">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "當在搜尋列切換搜尋引擎後立即開始搜尋">
+<!ENTITY wspro.settings.general.search.searchondrop "當拖放或貼上文字到 Web Search Pro 搜尋列時立即開始搜尋">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "當按下快捷鍵時，使用「彈出式快速搜尋框」取代搜尋列來搜尋">
+<!ENTITY wspro.settings.general.search.results "搜尋結果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "在新分頁開啟搜尋結果">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "用 Web Search Pro 搜尋後自動切換至該分頁">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "當使用右鍵選單時，在新分頁開啟搜尋結果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "當使用拖放區時，在新分頁開啟搜尋結果">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "當使用快速搜尋框時，在新分頁開啟搜尋結果">
+<!ENTITY wspro.settings.general.display.other "其他顯示選項">
+<!ENTITY wspro.settings.general.display.hide "隱藏項目 (部分項目可能需要重新啟動您的瀏覽器)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "隱藏 Firefox 預設的搜尋列 (可自訂您的工具列來還原它)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "隱藏 Web Search Pro 工具選單">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "隱藏 Web Search Pro 右鍵選單">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "隱藏 Web Search Pro 狀態列圖示">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "隱藏 Web Search Pro 搜尋列大小調整鈕">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "隱藏 Web Search Pro 預設的搜尋引擎群組 (僅空的群組)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "隱藏搜尋列上的搜尋引擎標籤">
+<!ENTITY wspro.settings.general.display.autosort "自動依字母排序搜尋引擎">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "您想要如何顯示您的搜尋引擎？">
+<!ENTITY wspro.settings.general.display.menustyle.flat "單一顯示 - 不用群組的方式列出我所選擇的搜尋引擎">
+<!ENTITY wspro.settings.general.display.menustyle.group "分組顯示 - 用子選單的方式來顯示不同類型的搜尋引擎">
+<!ENTITY wspro.settings.general.display.menustyle.list "分隔顯示 - 用群組標題來隔開不同類型的搜尋引擎">
+<!ENTITY wspro.settings.general.display.googlesuggest "輸入關鍵字時顯示 Google 提供的建議">
+<!ENTITY wspro.settings.general.connection "連線選項">
+<!ENTITY wspro.settings.general.connection.autoupdate "每隔 14 天自動更新您的搜尋引擎">
+<!ENTITY wspro.settings.general.export "匯出設定">
+<!ENTITY wspro.settings.general.import "匯入設定">
+<!ENTITY wspro.settings.general.defaultse "預設的搜尋引擎">
+<!ENTITY wspro.settings.general.defaultse.info "每次搜尋後就切換回這個搜尋引擎">
+<!ENTITY wspro.settings.display "顯示">
+<!ENTITY wspro.settings.dropzones "拖放區">
+<!ENTITY wspro.settings.dropzones.usedropzones "使用拖放區">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "顯示尚未分配搜尋引擎的拖放區 (將會用預設的搜尋引擎來填滿拖放區)">
+<!ENTITY wspro.settings.dropzones.color "顏色">
+<!ENTITY wspro.settings.dropzones.trailstyle "軌跡樣式">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "淡出">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "單一">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "無">
+<!ENTITY wspro.settings.dropzones.assign "分配拖放區給搜尋引擎">
+<!ENTITY wspro.settings.searchengines "搜尋引擎">
+<!ENTITY wspro.settings.searchengines.selected "已設定的搜尋引擎">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "按此編輯這個搜尋引擎的詳細資料">
+<!ENTITY wspro.settings.searchengines.selected.remove "按此移除這個搜尋引擎">
+<!ENTITY wspro.settings.searchengines.selected.report "按此回報 Captain Caveman 這個搜尋引擎是損壞的">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "按此遞增排序所選的搜尋引擎">
+<!ENTITY wspro.settings.searchengines.selected.sortza "按此遞減排序所選的搜尋引擎">
+<!ENTITY wspro.settings.searchengines.selected.update "按此立即更新所選的搜尋引擎">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "在搜尋框輸入一個關鍵字，然後按 [搜尋]">
+<!ENTITY wspro.toolbar.toggledend "拖放區">
+<!ENTITY wspro.toolbar.toggledend.tooltip "拖放區 啟用/停用">
+<!ENTITY wspro.searchall.movie.tooltip "搜尋所有選擇的電影網站">
+<!ENTITY wspro.searchall.music.tooltip "搜尋所有選擇的音樂網站">
+<!ENTITY wspro.searchall.other.tooltip "搜尋所有選擇的其他網站">
+<!ENTITY wspro.searchall.computer.tooltip "搜尋所有選擇的「電腦 / 科技」網站">
+<!ENTITY wspro.searchall.education.tooltip "搜尋所有選擇的「教育」網站">
+<!ENTITY wspro.searchall.news.tooltip "搜尋所有選擇的「新聞」網站">
+<!ENTITY wspro.searchall.reference.tooltip "搜尋所有選擇的「百科全書 / 字典」網站">
+<!ENTITY wspro.searchall.shopping.tooltip "搜尋所有選擇的「購物」網站">
+<!ENTITY wspro.searchall.business.tooltip "搜尋所有選擇的「商業」網站">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "圖示">
+<!ENTITY wspro.searchengine.shortcut "快捷鍵">
+<!ENTITY wspro.searchengine.browse "瀏覽">
+<!ENTITY wspro.searchengine.dropzones.info "「拖放區」是在您瀏覽器視窗中的一個區域，您可以將文字拖拉到「拖放區」開始進行搜尋。一個搜尋引擎可以同時指定在多個拖放區中。">
+<!ENTITY wspro.searchengine.dropzones.info.size "如果在下面的紅色虛線內分配您的拖放區，拖放區的範圍會自動地變大但是拖放區的數目會比較少。您可以依此方式來選擇要使用 16、36 或 64 個拖放區。">
+<!ENTITY wspro.searchengine.autosuggest "推薦給 Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "編輯這個搜尋引擎...">
+<!ENTITY wspro.context.removesearchengine "移除這個搜尋引擎">
+<!ENTITY wspro.settings.searchenginegroups "搜尋引擎群組">
+<!ENTITY wspro.settings.searchenginegroups.edit "編輯這個搜尋引擎群組...">
+<!ENTITY wspro.settings.searchenginegroups.remove "移除搜尋引擎群組">
+<!ENTITY wspro.settings.searchenginegroups.add "新增一個搜尋引擎群組...">
+<!ENTITY wspro.settings.searchengines.getengines "取得更多搜尋引擎...">
+<!ENTITY wspro-qts-title "Web Search Pro - 彈出式快速搜尋框">
+<!ENTITY wspro-qts-searchengine "搜尋使用">
+<!ENTITY wspro-qts-searchtext "搜尋">
+<!ENTITY wspro.settings.qts.color "「彈出式快速搜尋框」的背景顏色">
+<!ENTITY wspro.searchengine.autoprivatesuggest "新增一個私人搜尋引擎...">
+<!ENTITY wspro.qts.search "搜尋">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "清除">
+<!ENTITY wspro.qts.clear.accesskey "C">

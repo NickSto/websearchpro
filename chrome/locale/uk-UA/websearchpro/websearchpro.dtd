@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Пошукові двигуни та налаштування">
+<!ENTITY wspro.menuitem.options "Пошукові двигуни та налаштування">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Назва:">
+<!ENTITY mmsearch.settings.free.url "Адреса:">
+<!ENTITY mmsearch.settings.free.type "Тип:">
+<!ENTITY mmsearch.settings.free.type.music "Музика">
+<!ENTITY mmsearch.settings.free.type.movies "Відео">
+<!ENTITY mmsearch.settings.free.type.other "Інше">
+<!ENTITY mmsearch.settings.free.type.computer "Комп&apos;ютери/Технології">
+<!ENTITY mmsearch.settings.free.type.education "Освіта">
+<!ENTITY mmsearch.settings.free.type.news "Новини">
+<!ENTITY mmsearch.settings.free.type.reference "Довідка/Словники">
+<!ENTITY mmsearch.settings.free.type.shopping "Покупки">
+<!ENTITY mmsearch.settings.free.type.business "Бізнес">
+<!ENTITY mmsearch.search "Пошук">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Suggest a Search Engine">
+<!ENTITY mmsearch.settings.free.available.private "Додати особистий двигун">
+<!ENTITY mmsearch.settings.free.available.loading "Завантаження...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Відобразити пошукові двигуни">
+<!ENTITY wspro.settings.general "Загальні">
+<!ENTITY wspro.settings.general.search "Налаштування пошуку">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Очищувати панель після кожного запиту">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Відкрити копію результату пошуку у Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Починати пошук при зміні пошукового двигуна у панелі пошуку">
+<!ENTITY wspro.settings.general.search.searchondrop "Start your search when dropping or pasting text on the Web Search Pro toolbar">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Use the Quick Type Search popup instead of the search toolbar when pressing a shortcut">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Відкривати результат пошуку у новій вкладці">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Завантажувати результати пошуку у Web Search Pro на передньому плані">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Other Display Options">
+<!ENTITY wspro.settings.general.display.hide "Hide items (for some items you might need to restart your browser)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Hide the default Firefox Web Search (Customize your toolbar to bring it back)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Hide the Web Search Pro Tools menu">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Hide the Web Search Pro Context menu">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Hide the Web Search Pro Toolbar Resizer">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Hide the Web Search Pro default Search Engine Groups (empty groups only)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Автоматично сортувати пошукові двигуна за абеткою">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Як Ви хочете? щоб відображались Ваші пошукові двигуни?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Просто - список обраних мною двигунів">
+<!ENTITY wspro.settings.general.display.menustyle.group "Гуртувати - підменю для кожного типу пошукових двигунів">
+<!ENTITY wspro.settings.general.display.menustyle.list "Окремий список - звичайний список з заголовком для кожного пошукового двигуна">
+<!ENTITY wspro.settings.general.display.googlesuggest "Використовуйте Google для пошуку пропозицій під час набору тексту">
+<!ENTITY wspro.settings.general.connection "Налаштування з&apos;єднання">
+<!ENTITY wspro.settings.general.connection.autoupdate "Оновлювати пошукові двигуни кожні 14 днів автоматично">
+<!ENTITY wspro.settings.general.export "Export settings">
+<!ENTITY wspro.settings.general.import "Import settings">
+<!ENTITY wspro.settings.general.defaultse "Default Search Engine">
+<!ENTITY wspro.settings.general.defaultse.info "After each search switch back to this Search Engine">
+<!ENTITY wspro.settings.display "Display">
+<!ENTITY wspro.settings.dropzones "Зона Drag &amp; Drop">
+<!ENTITY wspro.settings.dropzones.usedropzones "Використовувати зону Drag &amp; Drop">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Відобразити зону Drop, для якої відсутній пошуковий двигун">
+<!ENTITY wspro.settings.dropzones.color "Колір">
+<!ENTITY wspro.settings.dropzones.trailstyle "Стиль сліду">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Згасання">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Окремий">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Нічого">
+<!ENTITY wspro.settings.dropzones.assign "Обрати пошукові двигуни для зони Drag &amp; Drop">
+<!ENTITY wspro.settings.searchengines "Пошукові двигуни">
+<!ENTITY wspro.settings.searchengines.selected "Обрати пошукові двигуни">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Натисніть, щоб редагувати обраний пошуковий двигун">
+<!ENTITY wspro.settings.searchengines.selected.remove "Натисніть, щоб видалити обраний двигун">
+<!ENTITY wspro.settings.searchengines.selected.report "Натисніть, щоб відправити Captain Caveman повідомлення про непрацюючий двигун">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Натисніть, щоб відсортувати пошукові двигуни за зростанням">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Натисніть, щоб відсортувати пошукові двигуни за спаданням">
+<!ENTITY wspro.settings.searchengines.selected.update "Натисніть, щоб оновити обраний пошуковий двигун">
+<!ENTITY wspro.tools.accesskey "Д">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Введіть пошуковий запрос до панелі пошуку та натисніть Пошук">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Switch Drag &amp; DropZones On or Off">
+<!ENTITY wspro.searchall.movie.tooltip "Шукати на обраних сайтах про кіно">
+<!ENTITY wspro.searchall.music.tooltip "Шукати на обраних музикальних сайтах">
+<!ENTITY wspro.searchall.other.tooltip "Шукати на інших обраних сайтах">
+<!ENTITY wspro.searchall.computer.tooltip "Шукати на обраних про комп&apos;ютери/технології">
+<!ENTITY wspro.searchall.education.tooltip "Шукати на обраних освітніх сайтах">
+<!ENTITY wspro.searchall.news.tooltip "Шукати на обраних інформаційних сайтах">
+<!ENTITY wspro.searchall.reference.tooltip "Шукати на обраних сайтах довідників/словників">
+<!ENTITY wspro.searchall.shopping.tooltip "Шукати на обраних сайтах-магазинах">
+<!ENTITY wspro.searchall.business.tooltip "Шукати на обраних бізнес-сайтах">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Значок">
+<!ENTITY wspro.searchengine.shortcut "Швидкі клавіши">
+<!ENTITY wspro.searchengine.browse "Огляд">
+<!ENTITY wspro.searchengine.dropzones.info "Зона Drag &amp; Drop - це зона у вікні Вашого браузеру, де Ви можете просто пересунути обраний текст для початку пошуку. Ви можете обрати стільки зон, скільки Вам необхідно.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Assign your DropZones within a red dotted area below to automatically use bigger but less DropZones. You can choose between 16, 36 or 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Пропозиції щодо Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Редагувати цей пошуковий двигун...">
+<!ENTITY wspro.context.removesearchengine "Видалити цей пошуковий двигун">
+<!ENTITY wspro.settings.searchenginegroups "Search Engine Groups">
+<!ENTITY wspro.settings.searchenginegroups.edit "Edit this Search Engine Group...">
+<!ENTITY wspro.settings.searchenginegroups.remove "Remove this Search Engine Group">
+<!ENTITY wspro.settings.searchenginegroups.add "Add a new Search Engine Group...">
+<!ENTITY wspro.settings.searchengines.getengines "Get more Search Engines...">
+<!ENTITY wspro-qts-title "Web Search Pro - Quick Type Search">
+<!ENTITY wspro-qts-searchengine "Search using">
+<!ENTITY wspro-qts-searchtext "Search for">
+<!ENTITY wspro.settings.qts.color "Background color for the Quick Type Search popup">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

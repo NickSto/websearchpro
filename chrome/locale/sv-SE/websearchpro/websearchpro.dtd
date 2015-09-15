@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Sökmotorer &amp; inställningar">
+<!ENTITY wspro.menuitem.options "Sökmotorer &amp; inställningar">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Namn:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Typ:">
+<!ENTITY mmsearch.settings.free.type.music "Musik">
+<!ENTITY mmsearch.settings.free.type.movies "Filmer">
+<!ENTITY mmsearch.settings.free.type.other "Annat">
+<!ENTITY mmsearch.settings.free.type.computer "Datorer/Teknik">
+<!ENTITY mmsearch.settings.free.type.education "Utbildning">
+<!ENTITY mmsearch.settings.free.type.news "Nyheter">
+<!ENTITY mmsearch.settings.free.type.reference "Uppslagsverk">
+<!ENTITY mmsearch.settings.free.type.shopping "Shopping">
+<!ENTITY mmsearch.settings.free.type.business "Affärsliv">
+<!ENTITY mmsearch.search "Sök">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Föreslå en sökmotor">
+<!ENTITY mmsearch.settings.free.available.private "Lägg till en personlig sökmotor">
+<!ENTITY mmsearch.settings.free.available.loading "Laddar...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Visa sökmotorer">
+<!ENTITY wspro.settings.general "Allmänt">
+<!ENTITY wspro.settings.general.search "Sökalternativ">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Rensa sökfältet efter varje sökning">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Återanvänd flikar öppnade av Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Starta sökning när du byter sökmotor i verktygsfältet">
+<!ENTITY wspro.settings.general.search.searchondrop "Starta sökning när text släpps eller klistras in i Web Search Pro's sökfält">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Använd Quick Type Search popupruta istället för sökrutan i vid användning av snabbkommando">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Öppna sökresultat i ny flik">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Ladda flikar öppnade av Web Search Pro i förgrunden">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Övriga visuella inställningar">
+<!ENTITY wspro.settings.general.display.hide "Dölj (kan kräva omstart av webbläsare)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Dölj Firefox standardsökfält (återställs genom anpassning av verktygsfält)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Dölj Web Search Pro verktygsmeny">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Dölj Web Search Pro snabbmeny">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Visa inte Web Search Pro statusfält">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Dölj funktion för att ändra storlek av Web Search Pro sökruta">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Dölj standardsökmotorer i Web Search Pro (endast tomma grupper)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Göm ikon för aktuell sökmotor i verktygsfältet">
+<!ENTITY wspro.settings.general.display.autosort "Sortera sökmotorer i alfabetisk ordning automatiskt">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "Hur vill du visa dina sökmotorer?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Bara en vanlig list med sökmotorer jag valt">
+<!ENTITY wspro.settings.general.display.menustyle.group "Grupperade med undermeny för vare typ av sökmotor">
+<!ENTITY wspro.settings.general.display.menustyle.list "Separat lista med en rubrik för varje typ av sökmotor">
+<!ENTITY wspro.settings.general.display.googlesuggest "Använd Google Suggest för att föreslå sökningar">
+<!ENTITY wspro.settings.general.connection "Anslutningsinställningar">
+<!ENTITY wspro.settings.general.connection.autoupdate "Uppdatera dina sökmotorer automatiskt var 14:e dag">
+<!ENTITY wspro.settings.general.export "Exportera inställningar">
+<!ENTITY wspro.settings.general.import "Importera inställningar">
+<!ENTITY wspro.settings.general.defaultse "Standardsökmotorer">
+<!ENTITY wspro.settings.general.defaultse.info "Återgå till denna sökmotor efter varje sökning">
+<!ENTITY wspro.settings.display "Utseende">
+<!ENTITY wspro.settings.dropzones "Dra-och-Släpp-zoner">
+<!ENTITY wspro.settings.dropzones.usedropzones "Använd Dra-och-Släpp-zoner">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Visa Dra-och-Släpp-zoner som inte är tilldelad någon sökmotor (zonerna kopplas till standardsökmotorn)">
+<!ENTITY wspro.settings.dropzones.color "Färg">
+<!ENTITY wspro.settings.dropzones.trailstyle "Markörspår">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Tona ut">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Enkel">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Ingen">
+<!ENTITY wspro.settings.dropzones.assign "Tilldela Dra-och-Släpp-zoner till sökmotorer">
+<!ENTITY wspro.settings.searchengines "Sökmotorer">
+<!ENTITY wspro.settings.searchengines.selected "Sökmotorer">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Redigera denna sökmotor">
+<!ENTITY wspro.settings.searchengines.selected.remove "Ta bort denna sökmotor">
+<!ENTITY wspro.settings.searchengines.selected.report "Meddela Captain Caveman att denna sökmotor inte fungerar">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Sortera sökmotorer i stigande ordning">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Sortera sökmotorer i fallande ordning">
+<!ENTITY wspro.settings.searchengines.selected.update "Uppdatera sökmotorer nu">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Ange text att söka efter i textrutan och klicka på Sök">
+<!ENTITY wspro.toolbar.toggledend "Dra-och-släpp-zoner">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Dra-och-släpp-zon på eller av">
+<!ENTITY wspro.searchall.movie.tooltip "Söker i filmsidor">
+<!ENTITY wspro.searchall.music.tooltip "Söker i musiksidor">
+<!ENTITY wspro.searchall.other.tooltip "Söker i övriga sidor">
+<!ENTITY wspro.searchall.computer.tooltip "Söker i Dator/Teknik-sidor">
+<!ENTITY wspro.searchall.education.tooltip "Söker i utbildningssidor">
+<!ENTITY wspro.searchall.news.tooltip "Söker i nyhetssidor">
+<!ENTITY wspro.searchall.reference.tooltip "Söker i lexikonsidor">
+<!ENTITY wspro.searchall.shopping.tooltip "Söker i shoppingsidor">
+<!ENTITY wspro.searchall.business.tooltip "Söker i affärssidor">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Ikon">
+<!ENTITY wspro.searchengine.shortcut "Snabbkommando">
+<!ENTITY wspro.searchengine.browse "Bläddra">
+<!ENTITY wspro.searchengine.dropzones.info "En Dra-och-släpp-zon är en yta i din webbläsare dit du kan dra och släppa text för att starta en sökning. Du kan välja så många zoner du vill per sökmotor.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Tilldela dina Dra-och-släpp-zoner i den rödprickiga arean nedan för att använda större, men färre, Dra-och-släpp-zoner. Välj mellan 16, 36 eller 64 zoner.">
+<!ENTITY wspro.searchengine.autosuggest "Skicka förslag till Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Redigera denna sökmotor">
+<!ENTITY wspro.context.removesearchengine "Ta bort denna sökmotor">
+<!ENTITY wspro.settings.searchenginegroups "Sökmotorgrupper">
+<!ENTITY wspro.settings.searchenginegroups.edit "Redigera denna sökmotorgrupp...">
+<!ENTITY wspro.settings.searchenginegroups.remove "Ta bort denna sökmotorgrupp">
+<!ENTITY wspro.settings.searchenginegroups.add "Lägg till en ny sökmotorgrupp...">
+<!ENTITY wspro.settings.searchengines.getengines "Hämta fler sökmotorer...">
+<!ENTITY wspro-qts-title "Web Search Pro - Snabbsökning">
+<!ENTITY wspro-qts-searchengine "Sök med">
+<!ENTITY wspro-qts-searchtext "Sök efter">
+<!ENTITY wspro.settings.qts.color "Bakgrundsfärg för snabbsökningens popupruta">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Lägg till som privat sökmotor...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

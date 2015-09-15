@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - 검색 엔진 &amp; 설정">
+<!ENTITY wspro.menuitem.options "검색 엔진 &amp; 설정">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "이름:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "그룹:">
+<!ENTITY mmsearch.settings.free.type.music "음악">
+<!ENTITY mmsearch.settings.free.type.movies "영화">
+<!ENTITY mmsearch.settings.free.type.other "기타">
+<!ENTITY mmsearch.settings.free.type.computer "컴퓨터 / 기술">
+<!ENTITY mmsearch.settings.free.type.education "교육">
+<!ENTITY mmsearch.settings.free.type.news "뉴스">
+<!ENTITY mmsearch.settings.free.type.reference "참고 문헌 / 사전">
+<!ENTITY mmsearch.settings.free.type.shopping "쇼핑">
+<!ENTITY mmsearch.settings.free.type.business "업무">
+<!ENTITY mmsearch.search "검색">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "검색 엔진 제안">
+<!ENTITY mmsearch.settings.free.available.private "개인 검색 엔진 추가">
+<!ENTITY mmsearch.settings.free.available.loading "로딩...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "검색 엔진 표시">
+<!ENTITY wspro.settings.general "일반">
+<!ENTITY wspro.settings.general.search "검색 설정">
+<!ENTITY wspro.settings.general.search.clearsearchbox "각 검색 뒤 텍스트상자에서 검색 질의 지움">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Web Search Pro가 연 탭페이지 다시 씀">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "도구 모음의 검색 엔진을 바꾸면 검색 시작">
+<!ENTITY wspro.settings.general.search.searchondrop "Web Search Pro 도구 모음에 텍스트를 놓거나 붙여넣으면 검색 시작">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "단축키를 눌렀을 때 검색 도구 모음 대신 Quick Type 검색 팝업 사용">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "검색 결과를 새 탭에 열기">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Web Search Pro가 연 페이지를 활성탭으로 로드">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "기타 표시 설정">
+<!ENTITY wspro.settings.general.display.hide "Hide items (for some items you might need to restart your browser)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Hide the default Firefox Web Search (Customize your toolbar to bring it back)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Web Search Pro 도구 메뉴에서 감추기">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Web Search Pro 문맥 메뉴 감추기">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Web Search Pro 도구 모음 리사이저 감추기">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Web Search Pro 디폴트 검색 엔진 그룹 감추기(빈 그룹만)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "알파벳 순으로 검색 엔진 자동 정렬">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "어떻게 여러분의 검색 엔진을 표시하시겠습니까?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Flat, 고른 엔진 목록만">
+<!ENTITY wspro.settings.general.display.menustyle.group "Grouped, a submenu for each type of Search Engine">
+<!ENTITY wspro.settings.general.display.menustyle.list "Separated list, a flat list but with a header for each type of Search Engine">
+<!ENTITY wspro.settings.general.display.googlesuggest "입력할 때 제안을 제공하기 위해 Google Suggest 사용">
+<!ENTITY wspro.settings.general.connection "연결 설정">
+<!ENTITY wspro.settings.general.connection.autoupdate "14일마다 여러분의 검색 엔진 자동 업데이트">
+<!ENTITY wspro.settings.general.export "설정 내보내기">
+<!ENTITY wspro.settings.general.import "설정 가져오기">
+<!ENTITY wspro.settings.general.defaultse "기본 검색 엔진">
+<!ENTITY wspro.settings.general.defaultse.info "각 검색을 마친 다음 이 검색 엔진으로 되돌림">
+<!ENTITY wspro.settings.display "표시">
+<!ENTITY wspro.settings.dropzones "Drag &amp; DropZone">
+<!ENTITY wspro.settings.dropzones.usedropzones "Drag &amp; DropZone 사용">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "지정된 검색 엔진이 없는 DropZone 보임 (DropZone을 기본 검색 엔진으로 채웁니다)">
+<!ENTITY wspro.settings.dropzones.color "색">
+<!ENTITY wspro.settings.dropzones.trailstyle "자취 스타일">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "희미하게">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "한 줄로">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "없음">
+<!ENTITY wspro.settings.dropzones.assign "검색 엔진에게 Drag &amp; DropZone 지정">
+<!ENTITY wspro.settings.searchengines "검색 엔진">
+<!ENTITY wspro.settings.searchengines.selected "고른 검색 엔진">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "이 검색 엔진의 세부 사항을 편집하려면 클릭">
+<!ENTITY wspro.settings.searchengines.selected.remove "이 검색 엔진을 없애려면 클릭">
+<!ENTITY wspro.settings.searchengines.selected.report "이 검색 엔진이 깨졌음을 Captain Caveman에게 알리려면 클릭">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "고른 검색 엔진을 오름차순으로 정렬하려면 클릭">
+<!ENTITY wspro.settings.searchengines.selected.sortza "고른 검색 엔진을 내림차순으로 정렬하려면 클릭">
+<!ENTITY wspro.settings.searchengines.selected.update "지금 고른 검색 엔진을 업데이트하려면 클릭">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "텍스트상자에 검색 질의를 입력하고 나서 검색을 누르세요">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Drag &amp; DropZones을 보이거나 감춥니다">
+<!ENTITY wspro.searchall.movie.tooltip "고른 모든 영화 사이트 검색">
+<!ENTITY wspro.searchall.music.tooltip "고른 모든 음악 사이트 검색">
+<!ENTITY wspro.searchall.other.tooltip "고른 모든 기타 사이트 검색">
+<!ENTITY wspro.searchall.computer.tooltip "고른 모든 컴퓨터 / 기술 사이트 검색">
+<!ENTITY wspro.searchall.education.tooltip "고른 모든 교육 사이트 검색">
+<!ENTITY wspro.searchall.news.tooltip "고른 모든 뉴스 사이트 검색">
+<!ENTITY wspro.searchall.reference.tooltip "고른 모든 참고 문헌 / 사전 사이트 검색">
+<!ENTITY wspro.searchall.shopping.tooltip "고른 모든 쇼핑 사이트 검색">
+<!ENTITY wspro.searchall.business.tooltip "고른 모든 업무 사이트 검색">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "아이콘">
+<!ENTITY wspro.searchengine.shortcut "단축키">
+<!ENTITY wspro.searchengine.browse "찾아보기">
+<!ENTITY wspro.searchengine.dropzones.info "Drag &amp; DropZone은 검색을 시작하기 위해 텍스트를 놓을 수 있는 브라우저 창 영역입니다. 검색 엔진마다 마음대로 많은 zone을 고를 수 있습니다.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Assign your DropZones within a red dotted area below to automatically use bigger but less DropZones. You can choose between 16, 36 or 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Web Search Pro용 제안...">
+<!ENTITY wspro.context.editsearchengine "이 검색 엔진 편집...">
+<!ENTITY wspro.context.removesearchengine "이 검색 엔진 없앰">
+<!ENTITY wspro.settings.searchenginegroups "검색 엔진 그룹">
+<!ENTITY wspro.settings.searchenginegroups.edit "이 검색 엔진 그룹 편집...">
+<!ENTITY wspro.settings.searchenginegroups.remove "이 검색 엔진 그룹 없앰">
+<!ENTITY wspro.settings.searchenginegroups.add "새 검색 엔진 그룹 추가...">
+<!ENTITY wspro.settings.searchengines.getengines "쓸만한 검색 엔진 찾기...">
+<!ENTITY wspro-qts-title "Web Search Pro - Quick Type 검색">
+<!ENTITY wspro-qts-searchengine "사용 검색 엔진">
+<!ENTITY wspro-qts-searchtext "검색할 내용">
+<!ENTITY wspro.settings.qts.color "Quick Type 검색 팝업용 배경색">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

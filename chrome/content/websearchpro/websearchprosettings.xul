@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://websearchpro/skin/websearchpro.css" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/content/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+<!DOCTYPE dialog SYSTEM "chrome://websearchpro/locale/websearchpro.dtd">
+
+<prefwindow id="mmsearch-window" type="prefwindow"
+		title="&wspro.options.title;"
+		ondialogaccept="return ApplyChanges();"
+		onload="InitWindow();"
+		onunload="return ApplyChanges();"
+		buttons="accept,cancel"
+		persist="width height screenX screenY" 
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+
+<prefpane id="pp_searchengines" label="&wspro.settings.searchengines;" flex="1">
+	<groupbox orient="horizontal" flex="1">
+		<caption label="&wspro.settings.searchenginegroups;"/>
+		<hbox flex="1">
+			<vbox id="vbox_searchenginegroups" class="WSProlistBox overviewlist" flex="1" style="height: 190px; overflow: hidden;">
+				<scrollbox orient="vertical" style="width: 100%; height: 185px; overflow: auto;" flex="1"/>
+			</vbox>
+			<vbox>
+				<button class="addgroup" tooltiptext="&wspro.settings.searchenginegroups.add;" wsprotype="imagebutton" oncommand="AddSearchEngineGroup();"/>
+			</vbox>
+		</hbox>
+	</groupbox>
+
+	<groupbox orient="horizontal" flex="1">
+		<caption label="&wspro.settings.searchengines.selected;"/>
+		<hbox flex="1">
+			<vbox id="vbox_selectedengines" class="WSProlistBox overviewlist" flex="1" style="height: 190px; overflow: hidden;">
+				<scrollbox orient="vertical" style="width: 100%; height: 185px; overflow: auto;" flex="1"/>
+			</vbox>
+			<vbox>
+				<button class="sortaz" tooltiptext="&wspro.settings.searchengines.selected.sortaz;" wsprotype="imagebutton" oncommand="WSProSort('ASC');"/>
+				<button class="sortza" tooltiptext="&wspro.settings.searchengines.selected.sortza;" wsprotype="imagebutton" oncommand="WSProSort('DESC');"/>
+				<vbox class="vspacer"/>
+				<button id="button_suggest" class="suggest" tooltiptext="&mmsearch.settings.free.available.suggestsearchengine;" wsprotype="imagebutton" oncommand="SuggestSearchEngine();"/>
+				<button class="suggest_private" tooltiptext="&mmsearch.settings.free.available.private;" wsprotype="imagebutton" oncommand="AddPrivateSearchEngine();"/>
+				<vbox class="vspacer"/>
+				<button id="button_exportprefs" class="export" tooltiptext="&wspro.settings.general.export;" wsprotype="imagebutton" oncommand="WSProExportpreferences();"/>
+				<button id="button_importprefs" class="import" tooltiptext="&wspro.settings.general.import;" wsprotype="imagebutton" oncommand="WSProImportpreferences();"/>
+				<vbox class="vspacer"/>
+				<button id="button_updatese" class="update" tooltiptext="&wspro.settings.searchengines.selected.update;" wsprotype="imagebutton" oncommand="WSProUpdateSearchEngines();"/>
+			</vbox>
+		</hbox>
+	</groupbox>
+	<hbox flex="1" pack="end"><label class="wspro-link" value="&wspro.settings.searchengines.getengines;" onclick="WSProLoadSearchEnginesPage();"/></hbox>
+
+	<box id="cloneus" hidden="true">
+		<hbox id="clone_serow" class="overviewrow" rowtype="searchengine" fseid="" fsetype="" align="center">
+			<image class="favicon" src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);"/>
+			<label value="Search Engine" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);"/>
+			<label value="(CTRL+SHIFT+X)" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);"/>
+			<hbox flex="1" pack="end" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);">
+				<button class="editsearchengine" tooltiptext="&wspro.settings.searchengines.selected.editsearchengine;" wsprotype="imagebutton" oncommand="WSProEditSE(this.parentNode.parentNode, this.parentNode.parentNode.getAttribute('fseid'));"/>
+				<button class="remove" tooltiptext="&wspro.settings.searchengines.selected.remove;" wsprotype="imagebutton" oncommand="WSProRemoveSE(this.parentNode.parentNode, this.parentNode.parentNode.getAttribute('fseid'));"/>
+				<button class="report" tooltiptext="&wspro.settings.searchengines.selected.report;" wsprotype="imagebutton" oncommand="WSProReportSE(this.parentNode.parentNode, this.parentNode.parentNode.getAttribute('fseid'));"/>
+			</hbox>
+		</hbox>
+		<hbox id="clone_sgrow" class="overviewrow" rowtype="searchgroup" fseid="" align="center" selected="false" onclick="SelectGroupRow(this.getAttribute('id'));">
+			<image class="favicon" src="" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);"/>
+			<label value="Search Group" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);"/>
+			<hbox flex="1" pack="end" ondraggesture="nsDragAndDrop.startDrag(event, WSProDragDropItemObserver);">
+				<button class="editsearchengine" tooltiptext="&wspro.settings.searchenginegroups.edit;" wsprotype="imagebutton" oncommand="WSProEditSG(this.parentNode.parentNode, this.parentNode.parentNode.getAttribute('fseid'));"/>
+				<spacer/>
+				<button class="remove" tooltiptext="&wspro.settings.searchenginegroups.remove;" wsprotype="imagebutton" oncommand="WSProRemoveSG(this.parentNode.parentNode, this.parentNode.parentNode.getAttribute('fseid'));"/>
+			</hbox>
+		</hbox>
+		<hbox id="groupsearchlabels">
+			<label id="ct-vlist-wspro-movie" value="&wspro.searchall.movie.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_movie.png" fselabel="&mmsearch.settings.free.type.movies;"/>
+			<label id="ct-vlist-wspro-music" value="&wspro.searchall.music.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_music.png" fselabel="&mmsearch.settings.free.type.music;"/>
+			<label id="ct-vlist-wspro-other" value="&wspro.searchall.other.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_other.png" fselabel="&mmsearch.settings.free.type.other;"/>
+			<label id="ct-vlist-wspro-compu" value="&wspro.searchall.computer.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_computer.png" fselabel="&mmsearch.settings.free.type.computer;"/>
+			<label id="ct-vlist-wspro-educa" value="&wspro.searchall.education.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_education.png" fselabel="&mmsearch.settings.free.type.education;"/>
+			<label id="ct-vlist-wspro-newss" value="&wspro.searchall.news.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_news.png" fselabel="&mmsearch.settings.free.type.news;"/>
+			<label id="ct-vlist-wspro-refer" value="&wspro.searchall.reference.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_reference.png" fselabel="&mmsearch.settings.free.type.reference;"/>
+			<label id="ct-vlist-wspro-shopp" value="&wspro.searchall.shopping.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_shopping.png" fselabel="&mmsearch.settings.free.type.shopping;"/>
+			<label id="ct-vlist-wspro-busin" value="&wspro.searchall.business.tooltip;" fseicon="chrome://websearchpro/skin/websearchpro_toolbar_free_business.png" fselabel="&mmsearch.settings.free.type.business;"/>
+		</hbox>
+	</box>
+</prefpane>
+
+<prefpane id="pp_general" label="&wspro.settings.general;">
+	<preferences>
+		<preference id="pref_resultsinnewtab" name="extensions.mmsearch.mmsearch-resultsinnewtab" type="bool"/>
+		<preference id="pref_loadsearchtabsinforeground" name="extensions.mmsearch.mmsearch-loadsearchtabsinforeground" type="bool"/>
+		<preference id="pref_resultsinnewtab_cm" name="extensions.mmsearch.mmsearch-resultsinnewtab-cm" type="bool"/>
+		<preference id="pref_loadsearchtabsinforeground_cm" name="extensions.mmsearch.mmsearch-loadsearchtabsinforeground-cm" type="bool"/>
+		<preference id="pref_resultsinnewtab_dend" name="extensions.mmsearch.mmsearch-resultsinnewtab-dend" type="bool"/>
+		<preference id="pref_loadsearchtabsinforeground_dend" name="extensions.mmsearch.mmsearch-loadsearchtabsinforeground-dend" type="bool"/>
+		<preference id="pref_resultsinnewtab_qts" name="extensions.mmsearch.mmsearch-resultsinnewtab-qts" type="bool"/>
+		<preference id="pref_loadsearchtabsinforeground_qts" name="extensions.mmsearch.mmsearch-loadsearchtabsinforeground-qts" type="bool"/>
+		<preference id="pref_clearsearchbox" name="extensions.mmsearch.mmsearch-clearsearchbox" type="bool"/>
+		<preference id="pref_reuseopenedtabs" name="extensions.mmsearch.mmsearch-reuseopenedtabs" type="bool"/>
+		<preference id="pref_searchonengineswitch" name="extensions.mmsearch.mmsearch-searchonengineswitch" type="bool"/>
+		<preference id="pref_searchondrop" name="extensions.mmsearch.mmsearch-searchondrop" type="bool"/>
+		<preference id="pref_autoupdate" name="extensions.mmsearch.mmsearch-autoupdate" type="bool"/>
+		<preference id="pref_useqtsinsteadoftoolbar" name="extensions.mmsearch.mmsearch-useqtsinsteadoftoolbar" type="bool"/>
+		<preference id="pref_googlesuggest" name="extensions.mmsearch.mmsearch-googlesuggest" type="bool"/>
+		<preference id="pref_defaultse" name="extensions.mmsearch.mmsearch-defaultse" type="string"/>
+	</preferences>
+	
+	<groupbox>
+		<caption label="&wspro.settings.general.search;"/>
+		<checkbox preference="pref_clearsearchbox" label="&wspro.settings.general.search.clearsearchbox;"/>
+		<checkbox preference="pref_reuseopenedtabs" label="&wspro.settings.general.search.reuseopenedtabs;"/>
+		<checkbox preference="pref_searchonengineswitch" label="&wspro.settings.general.search.searchonengineswitch;"/>
+		<checkbox preference="pref_searchondrop" label="&wspro.settings.general.search.searchondrop;"/>
+		<checkbox preference="pref_useqtsinsteadoftoolbar" label="&wspro.settings.general.search.useqtsinsteadoftoolbar;"/>
+		<checkbox preference="pref_googlesuggest" label="&wspro.settings.general.display.googlesuggest;"/>
+	</groupbox>
+	
+	<groupbox>
+		<caption label="&wspro.settings.general.search.results;"/>
+        <hbox>
+		    <checkbox preference="pref_resultsinnewtab" label="&wspro.settings.general.search.resultsinnewtab;" oncommand="this.nextSibling.nextSibling.setAttribute('disabled', !this.checked);"/>
+            <hbox flex="1"/>
+		    <checkbox preference="pref_loadsearchtabsinforeground" label="&wspro.settings.general.search.loadsearchtabsinforeground;"/>
+        </hbox>
+        <hbox>
+		    <checkbox preference="pref_resultsinnewtab_cm" label="&wspro.settings.general.search.resultsinnewtab.cm;" oncommand="this.nextSibling.nextSibling.setAttribute('disabled', !this.checked);"/>
+            <hbox flex="1"/>
+		    <checkbox preference="pref_loadsearchtabsinforeground_cm" label="&wspro.settings.general.search.loadsearchtabsinforeground;"/>
+        </hbox>
+        <hbox>
+		    <checkbox preference="pref_resultsinnewtab_dend" label="&wspro.settings.general.search.resultsinnewtab.dend;" oncommand="this.nextSibling.nextSibling.setAttribute('disabled', !this.checked);"/>
+            <hbox flex="1"/>
+		    <checkbox preference="pref_loadsearchtabsinforeground_dend" label="&wspro.settings.general.search.loadsearchtabsinforeground;"/>
+        </hbox>
+        <hbox>
+		    <checkbox preference="pref_resultsinnewtab_qts" label="&wspro.settings.general.search.resultsinnewtab.qts;" oncommand="this.nextSibling.nextSibling.setAttribute('disabled', !this.checked);"/>
+            <hbox flex="1"/>
+		    <checkbox preference="pref_loadsearchtabsinforeground_qts" label="&wspro.settings.general.search.loadsearchtabsinforeground;"/>
+        </hbox>
+	</groupbox>
+    
+	<groupbox>
+		<caption label="&wspro.settings.general.defaultse;"/>
+		<description style="max-width: 700px">&wspro.settings.general.defaultse.info;</description>
+		<menulist preference="pref_defaultse" id="ml_defaultse">
+			<menupopup>
+			</menupopup>
+		</menulist>
+	</groupbox>
+	<groupbox>
+		<caption label="&wspro.settings.general.connection;"/>
+		<checkbox preference="pref_autoupdate" label="&wspro.settings.general.connection.autoupdate;"/>
+	</groupbox>
+</prefpane>
+
+<prefpane id="pp_display" label="&wspro.settings.display;">
+	<preferences>
+		<preference id="pref_hidedefaultws" name="extensions.mmsearch.mmsearch-hidedefaultws" type="bool"/>
+		<preference id="pref_hidewsprotools" name="extensions.mmsearch.mmsearch-hidewsprotools" type="bool"/>
+		<preference id="pref_hidewsprocontext" name="extensions.mmsearch.mmsearch-hidewsprocontext" type="bool"/>
+		<preference id="pref_hidewsproresizer" name="extensions.mmsearch.mmsearch-hidewsproresizer" type="bool"/>
+		<preference id="pref_hidewsprostatusbar" name="extensions.mmsearch.mmsearch-hidewsprostatusbar" type="bool"/>
+		<preference id="pref_hidewsprosystemgroups" name="extensions.mmsearch.mmsearch-hidewsprosystemgroups" type="bool"/>
+		<preference id="pref_hidecurrentselabel" name="extensions.mmsearch.mmsearch-hidecurrentselabel" type="bool"/>
+		<preference id="pref_menustyle" name="extensions.mmsearch.mmsearch-menustyle" type="string"/>
+		<preference id="pref_qtscolor" name="extensions.mmsearch.mmsearch-qtscolor" type="string"/>
+		<preference id="pref_autosort" name="extensions.mmsearch.mmsearch-autosort" type="bool"/>
+		<preference id="pref_relabeltabs" name="extensions.mmsearch.mmsearch-relabeltabs" type="bool"/>
+	</preferences>
+	
+	<groupbox>
+		<caption label="&wspro.settings.general.display.hide;"/>
+		<checkbox preference="pref_hidedefaultws" label="&wspro.settings.general.display.hide.firefoxsearch;"/>
+		<checkbox preference="pref_hidewsprotools" label="&wspro.settings.general.display.hide.wsprotools;"/>
+		<checkbox preference="pref_hidewsprocontext" label="&wspro.settings.general.display.hide.wsprocontext;"/>
+		<checkbox preference="pref_hidewsproresizer" label="&wspro.settings.general.display.hide.wsproresizer;"/>
+		<checkbox preference="pref_hidewsprosystemgroups" label="&wspro.settings.general.display.hide.wsprosystemgroups;" oncommand="HideSystemSEGroups(this.checked);"/>
+		<checkbox preference="pref_hidewsprostatusbar" label="&wspro.settings.general.display.hide.wsprostatusbar;"/>
+		<checkbox preference="pref_hidecurrentselabel" label="&wspro.settings.general.display.hide.hidecurrentselabel;"/>
+	</groupbox>
+	<groupbox>
+		<caption label="&wspro.settings.general.display.menustyle;"/>
+		<radiogroup preference="pref_menustyle" value="flat">
+			<radio id="flat" value="flat" label="&wspro.settings.general.display.menustyle.flat;"/>
+			<radio id="group" value="group" label="&wspro.settings.general.display.menustyle.group;"/>
+			<radio id="list" value="list" label="&wspro.settings.general.display.menustyle.list;"/>
+		</radiogroup>
+	</groupbox>
+	<groupbox>
+		<caption label="&wspro.settings.general.display.other;"/>
+		<checkbox preference="pref_autosort" label="&wspro.settings.general.display.autosort;" oncommand="WSProCheckAutoSort(this.checked);"/>
+		<checkbox preference="pref_relabeltabs" label="&wspro.settings.general.display.relabeltabs;"/>
+		<hbox flex="1" style="padding-left: 6px"><colorpicker id="color_qts" preference="pref_qtscolor" palettename="standard" type="button"/><label value="&wspro.settings.qts.color;" style="padding-top: 3px"/></hbox>
+	</groupbox>
+</prefpane>
+
+<prefpane id="pp_dropzones" label="&wspro.settings.dropzones;">
+	<preferences>
+		<preference id="pref_droptextanywhere" name="extensions.mmsearch.mmsearch-droptextanywhere" type="bool"/>
+		<preference id="pref_showunassigneddropzones" name="extensions.mmsearch.mmsearch-showunassigneddropzones" type="bool"/>
+
+		<preference id="pref_dropzonetrailstyle" name="extensions.mmsearch.mmsearch-dropzonetrailstyle" type="string"/>
+		<preference id="pref_dropzonecolor" name="extensions.mmsearch.mmsearch-dropzonecolor" type="string"/>
+	</preferences>
+
+	<groupbox>
+		<caption label="&wspro.settings.general;"/>
+		<checkbox preference="pref_droptextanywhere" label="&wspro.settings.dropzones.usedropzones;"/>
+		<checkbox preference="pref_showunassigneddropzones" label="&wspro.settings.dropzones.showunassigneddropzones;"/>
+		<hbox flex="1"><label value="&wspro.settings.dropzones.color;:" style="padding-top: 3px"/><colorpicker id="color_dropzone" preference="pref_dropzonecolor" palettename="standard" type="button" onchange="UpdateDZColor(this.color);"/></hbox>
+		<hbox>
+			<label value="&wspro.settings.dropzones.trailstyle;:"/>
+			<radiogroup preference="pref_dropzonetrailstyle" value="fade" orient="horizontal">
+				<radio id="fade" value="fade" label="&wspro.settings.dropzones.trailstyle.fade;"/>
+				<radio id="once" value="once" label="&wspro.settings.dropzones.trailstyle.once;"/>
+				<radio id="none" value="none" label="&wspro.settings.dropzones.trailstyle.none;"/>
+			</radiogroup>
+		</hbox>
+	</groupbox>
+	<groupbox style="margin-bottom: 30px">
+		<caption label="&wspro.settings.dropzones.assign;"/>
+		<description style="max-width: 700px">&wspro.searchengine.dropzones.info;</description>
+		<description style="max-width: 700px;">&wspro.searchengine.dropzones.info.size;</description>
+		<vbox id="dropzonebox" flex="1" style="margin-top: 5px; margin-left: 4px;">
+			<hbox><hbox id="dz_0_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_0" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_1" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_2" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_3" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_4" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_5" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_6" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+			<hbox><hbox id="dz_0_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_1_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_2_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_3_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_4_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_5_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_6_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox><hbox id="dz_7_7" class="dropzone_small" pack="center" selected="false" onclick="HighlightDZ(this);" ondraggesture="nsDragAndDrop.startDrag(event, WSProDropZoneDragDropItemObserver);"><image src=""/></hbox></hbox>
+		</vbox>
+	</groupbox>		
+</prefpane>
+
+<script type="application/x-javascript" src="chrome://websearchpro/content/utils.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/> 
+<script type="application/x-javascript" src="chrome://websearchpro/content/websearchprosettings.js"/>
+
+</prefwindow>

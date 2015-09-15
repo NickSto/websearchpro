@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Arama Motorları &amp; Ayarlar">
+<!ENTITY wspro.menuitem.options "Arama Motorları &amp; Ayarlar">
+<!ENTITY wspro.menuitem.qts "Quick Type Search">
+<!ENTITY wspro.menuitem.qts.tooltip "Open the Quick Type Search popup window">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Açıklama:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Tür:">
+<!ENTITY mmsearch.settings.free.type.music "Müzik">
+<!ENTITY mmsearch.settings.free.type.movies "Filmler">
+<!ENTITY mmsearch.settings.free.type.other "Diğer">
+<!ENTITY mmsearch.settings.free.type.computer "Bilgisayar / Teknoloji">
+<!ENTITY mmsearch.settings.free.type.education "Eğitim">
+<!ENTITY mmsearch.settings.free.type.news "Haberler">
+<!ENTITY mmsearch.settings.free.type.reference "Referans / Sözlükler">
+<!ENTITY mmsearch.settings.free.type.shopping "Alışveriş">
+<!ENTITY mmsearch.settings.free.type.business "İş">
+<!ENTITY mmsearch.search "Ara">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Arama Motoru Öner">
+<!ENTITY mmsearch.settings.free.available.private "Özel arama motoru ekle">
+<!ENTITY mmsearch.settings.free.available.loading "Yükleniyor...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Arama motorlarını göster">
+<!ENTITY wspro.settings.general "Genel">
+<!ENTITY wspro.settings.general.search "Arama seçenekleri">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Arama bittikten sonra arama sorgulamasını sil">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Web Search Pro tarafından açılan sekmeleri yeniden kullan">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Start the search when you switch Search Engines on the toolbar">
+<!ENTITY wspro.settings.general.search.searchondrop "Start your search when dropping or pasting text on the Web Search Pro toolbar">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Use the Quick Type Search popup instead of the search toolbar when pressing a shortcut">
+<!ENTITY wspro.settings.general.search.results "Search results">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Arama sonuçlarını yeni bir sekmede aç">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Load tabpages opened by Web Search Pro in the foreground">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open search results in a new tab when using the context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open search results in a new tab when using Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open search results in a new tab when using Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Other Display Options">
+<!ENTITY wspro.settings.general.display.hide "Hide items (for some items you might need to restart your browser)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Hide the default Firefox Web Search (Customize your toolbar to bring it back)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Hide the Web Search Pro Tools menu">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Hide the Web Search Pro Context menu">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Hide the Web Search Pro Statusbar item">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Hide the Web Search Pro Toolbar Resizer">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Hide the Web Search Pro default Search Engine Groups (empty groups only)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Hide the label of the current Search Engine in the toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Automatically sort Search Engines alphabetically">
+<!ENTITY wspro.settings.general.display.relabeltabs "Display your search terms in tabs opened by Web Search Pro">
+<!ENTITY wspro.settings.general.display.menustyle "How would you like to display your search engines?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Flat, just a list of the engines I selected">
+<!ENTITY wspro.settings.general.display.menustyle.group "Grouped, a submenu for each type of search engine">
+<!ENTITY wspro.settings.general.display.menustyle.list "Separated list, a flat list but with a header for each type of search engine">
+<!ENTITY wspro.settings.general.display.googlesuggest "Use Google Suggest to offer suggestions as you type">
+<!ENTITY wspro.settings.general.connection "Connection Options">
+<!ENTITY wspro.settings.general.connection.autoupdate "Automatically update your Search Engines every 14 days">
+<!ENTITY wspro.settings.general.export "Export settings">
+<!ENTITY wspro.settings.general.import "Import settings">
+<!ENTITY wspro.settings.general.defaultse "Default Search Engine">
+<!ENTITY wspro.settings.general.defaultse.info "After each search switch back to this Search Engine">
+<!ENTITY wspro.settings.display "Display">
+<!ENTITY wspro.settings.dropzones "Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.usedropzones "Use Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Show DropZones that do not have a search engine assigned to them">
+<!ENTITY wspro.settings.dropzones.color "Color">
+<!ENTITY wspro.settings.dropzones.trailstyle "Trail style">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Fade out">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Single">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "None">
+<!ENTITY wspro.settings.dropzones.assign "Assign Drag &amp; DropZones to search engines">
+<!ENTITY wspro.settings.searchengines "Arama motorları">
+<!ENTITY wspro.settings.searchengines.selected "Seçili arama motorları">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Click to edit the details of this Search Engine">
+<!ENTITY wspro.settings.searchengines.selected.remove "Bu arama motorunu kaldırmak için tıklayın">
+<!ENTITY wspro.settings.searchengines.selected.report "Click to notify Captain Caveman that this Search Engine is broken">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Click to sort the selected Search Engines in ascending order">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Click to sort the selected Search Engines in descending order">
+<!ENTITY wspro.settings.searchengines.selected.update "Click to update the selected Search Engines now">
+<!ENTITY wspro.tools.accesskey "A">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Aranacak veriyi kutu içine yazın ve sonra arama tüğmesine tıklayın">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Switch Drag &amp; DropZones On or Off">
+<!ENTITY wspro.searchall.movie.tooltip "Search all selected movie sites">
+<!ENTITY wspro.searchall.music.tooltip "Search all selected music sites">
+<!ENTITY wspro.searchall.other.tooltip "Search all selected other sites">
+<!ENTITY wspro.searchall.computer.tooltip "Search all selected Computer / Technology sites">
+<!ENTITY wspro.searchall.education.tooltip "Search all selected Education sites">
+<!ENTITY wspro.searchall.news.tooltip "Search all selected News sites">
+<!ENTITY wspro.searchall.reference.tooltip "Search all selected Reference / Dictionaries sites">
+<!ENTITY wspro.searchall.shopping.tooltip "Search all selected Shopping sites">
+<!ENTITY wspro.searchall.business.tooltip "Search all selected Business sites">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Icon">
+<!ENTITY wspro.searchengine.shortcut "Keyboard Shortcut">
+<!ENTITY wspro.searchengine.browse "Browse">
+<!ENTITY wspro.searchengine.dropzones.info "A Drag &amp; DropZone is an area in your browser window where you can drop text to start a search. You can select as many zones as you like per Search Engine.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Assign your DropZones within a red dotted area below to automatically use bigger but less DropZones. You can choose between 16, 36 or 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Suggest for Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Edit this Search Engine...">
+<!ENTITY wspro.context.removesearchengine "Remove this Search Engine">
+<!ENTITY wspro.settings.searchenginegroups "Search Engine Groups">
+<!ENTITY wspro.settings.searchenginegroups.edit "Edit this Search Engine Group...">
+<!ENTITY wspro.settings.searchenginegroups.remove "Remove this Search Engine Group">
+<!ENTITY wspro.settings.searchenginegroups.add "Add a new Search Engine Group...">
+<!ENTITY wspro.settings.searchengines.getengines "Get more Search Engines...">
+<!ENTITY wspro-qts-title "Web Search Pro - Quick Type Search">
+<!ENTITY wspro-qts-searchengine "Search using">
+<!ENTITY wspro-qts-searchtext "Search for">
+<!ENTITY wspro.settings.qts.color "Background color for the Quick Type Search popup">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Add as private Search Engine...">
+<!ENTITY wspro.qts.search "Search">
+<!ENTITY wspro.qts.search.accesskey "S">
+<!ENTITY wspro.qts.clear "Clear">
+<!ENTITY wspro.qts.clear.accesskey "C">

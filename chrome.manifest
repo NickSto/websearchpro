@@ -1,0 +1,37 @@
+content websearchpro	chrome/content/websearchpro/
+
+skin	websearchpro   classic/1.0   chrome/skin/classic/websearchpro/
+
+locale  websearchpro	en-US	chrome/locale/en-US/websearchpro/
+locale  websearchpro	nl	chrome/locale/nl/websearchpro/
+locale  websearchpro	es-ES	chrome/locale/es-ES/websearchpro/
+locale  websearchpro	ca-AD	chrome/locale/ca-AD/websearchpro/
+locale  websearchpro	it-IT	chrome/locale/it-IT/websearchpro/
+locale  websearchpro	de	chrome/locale/de/websearchpro/
+locale  websearchpro	fr	chrome/locale/fr/websearchpro/
+locale  websearchpro	ja-JP	chrome/locale/ja-JP/websearchpro/
+locale  websearchpro	tr-TR	chrome/locale/tr-TR/websearchpro/
+locale  websearchpro	es-AR	chrome/locale/es-AR/websearchpro/
+locale  websearchpro	sk-SK	chrome/locale/sk-SK/websearchpro/
+locale  websearchpro	pt-PT	chrome/locale/pt-PT/websearchpro/
+locale  websearchpro	da	chrome/locale/da/websearchpro/
+locale  websearchpro	zh-CN	chrome/locale/zh-CN/websearchpro/
+locale  websearchpro	ru-RU	chrome/locale/ru-RU/websearchpro/
+locale  websearchpro	uk-UA	chrome/locale/uk-UA/websearchpro/
+locale  websearchpro	af-ZA	chrome/locale/af-ZA/websearchpro/
+locale  websearchpro	hr-HR	chrome/locale/hr-HR/websearchpro/
+locale  websearchpro	sv-SE	chrome/locale/sv-SE/websearchpro/
+locale  websearchpro	ko-KR	chrome/locale/ko-KR/websearchpro/
+locale  websearchpro	zh-TW	chrome/locale/zh-TW/websearchpro/
+locale  websearchpro	pt-BR	chrome/locale/pt-BR/websearchpro/
+locale  websearchpro	pl	chrome/locale/pl/websearchpro/
+
+overlay	chrome://browser/content/browser.xul	chrome://websearchpro/content/websearchproOverlay.xul
+overlay	chrome://mozapps/content/extensions/about.xul	chrome://websearchpro/content/websearchproAboutOverlay.xul
+
+style	chrome://browser/content/browser.xul	chrome://websearchpro/skin/websearchpro.css
+style	chrome://global/content/customizeToolbar.xul	chrome://websearchpro/skin/websearchpro.css
+style	chrome://mozapps/content/extensions/about.xul	chrome://websearchpro/skin/websearchpro.css
+
+component {8F8833CC-5568-4d90-9157-5B816F893347} components/nsWSProSuggestions.js
+contract @mozilla.org/autocomplete/search;1?name=wspro-remote-url-suggestions {8F8833CC-5568-4d90-9157-5B816F893347}

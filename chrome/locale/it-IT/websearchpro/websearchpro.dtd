@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Opzioni di ricerca di Web Search Pro">
+<!ENTITY wspro.menuitem.options "Impostazioni…">
+<!ENTITY wspro.menuitem.qts "Ricerca rapida…">
+<!ENTITY wspro.menuitem.qts.tooltip "Apre il pop-up di ricerca rapida">
+<!ENTITY wspro.menuitem.qts.accesskey "R">
+<!ENTITY mmsearch.settings.free.name "Descrizione:">
+<!ENTITY mmsearch.settings.free.url "Indirizzo web:">
+<!ENTITY mmsearch.settings.free.type "Tipo:">
+<!ENTITY mmsearch.settings.free.type.music "Musica">
+<!ENTITY mmsearch.settings.free.type.movies "Film">
+<!ENTITY mmsearch.settings.free.type.other "Altro">
+<!ENTITY mmsearch.settings.free.type.computer "Computer / tecnologia">
+<!ENTITY mmsearch.settings.free.type.education "Formazione">
+<!ENTITY mmsearch.settings.free.type.news "Notizie">
+<!ENTITY mmsearch.settings.free.type.reference "Riferimenti / dizionari">
+<!ENTITY mmsearch.settings.free.type.shopping "Acquisti">
+<!ENTITY mmsearch.settings.free.type.business "Affari">
+<!ENTITY mmsearch.search "Cerca…">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Suggerire un motore di ricerca">
+<!ENTITY mmsearch.settings.free.available.private "Aggiungere un motore di ricerca privato">
+<!ENTITY mmsearch.settings.free.available.loading "In caricamento…">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Visualizza i motori di ricerca">
+<!ENTITY wspro.settings.general "Generali">
+<!ENTITY wspro.settings.general.search "Opzioni di ricerca">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Svuota il campo di ricerca dopo ogni utilizzo">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Riutilizza le schede aperte da Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Inizia la ricerca quando si passa ai motori di ricerca nella barra degli strumenti">
+<!ENTITY wspro.settings.general.search.searchondrop "Inizia la ricerca quando si rilascia o incolla il testo nella barra degli strumenti di Web Search Pro">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Utilizza il pop-up di ricerca rapida anziché la barra di ricerca quando si seleziona una scorciatoia">
+<!ENTITY wspro.settings.general.search.results "Risultati di ricerca">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Apri in una nuova scheda quando si utilizza la barra degli strumenti di Web Search Pro">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Carica in primo piano">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Apri in una nuova scheda quando si utilizza il menu contestuale">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Apri in una nuova scheda quando si utilizzano le zone di trascinamento e rilascio">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Apri in una nuova scheda quando si utilizza il pop-up di ricerca rapida">
+<!ENTITY wspro.settings.general.display.other "Altre opzioni di visualizzazione">
+<!ENTITY wspro.settings.general.display.hide "Elementi da nascondere (per alcuni di essi sarà necessario riavviare il browser)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Nascondi la ricerca predefinita sul web di Firefox (per ripristinarla, fare clic con tasto destro del mouse nelle barre degli strumenti e scegliere 'Personalizza…')">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Nascondi Web Search Pro nel menu 'Strumenti' di Firefox">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Nascondi il menu contestuale di Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Nascondi l'icona di Web Search Pro nella barra di stato">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Nascondi il ridimensionatore della barra di ricerca di Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Nascondi solo i gruppi vuoti predefiniti dei motori di ricerca di Web Search Pro">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Nascondi il nome del motore di ricerca attuale nella barra di ricerca">
+<!ENTITY wspro.settings.general.display.autosort "Metti automaticamente in ordine alfabetico i motori di ricerca">
+<!ENTITY wspro.settings.general.display.relabeltabs "Visualizza i termini cercati nei cartellini delle schede">
+<!ENTITY wspro.settings.general.display.menustyle "Visualizzazione dei propri motori di ricerca">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Con la lista dei motori selezionati">
+<!ENTITY wspro.settings.general.display.menustyle.group "Raggruppati, con un sottomenu per ogni tipo di motore di ricerca">
+<!ENTITY wspro.settings.general.display.menustyle.list "In liste separate, con un&apos;intestazione per ogni tipo di motore di ricerca">
+<!ENTITY wspro.settings.general.display.googlesuggest "Utilizza Google Suggest per offrire suggerimenti mentre si scrive">
+<!ENTITY wspro.settings.general.connection "Aggiornamento dei motori di ricerca">
+<!ENTITY wspro.settings.general.connection.autoupdate "Aggiorna automaticamente i motori di ricerca ogni 14 giorni">
+<!ENTITY wspro.settings.general.export "Esporta le impostazioni…">
+<!ENTITY wspro.settings.general.import "Importa le impostazioni…">
+<!ENTITY wspro.settings.general.defaultse "Motore di ricerca predefinito">
+<!ENTITY wspro.settings.general.defaultse.info "Seleziona l'azione da eseguire o il motore di ricerca da utilizzare dopo ogni ricerca:">
+<!ENTITY wspro.settings.display "Aspetto">
+<!ENTITY wspro.settings.dropzones "Zone di trascinamento e rilascio">
+<!ENTITY wspro.settings.dropzones.usedropzones "Utilizza le zone di trascinamento e rilascio">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Mostra le zone di trascinamento e rilascio prive di un motore di ricerca loro assegnato">
+<!ENTITY wspro.settings.dropzones.color "Colore">
+<!ENTITY wspro.settings.dropzones.trailstyle "Stile di scorrimento">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "in dissolvenza">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "in una sola volta">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "in nessuno stile">
+<!ENTITY wspro.settings.dropzones.assign "Zone di trascinamento e rilascio dei motori di ricerca">
+<!ENTITY wspro.settings.searchengines "Motori di ricerca">
+<!ENTITY wspro.settings.searchengines.selected "Motori di ricerca selezionati">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Fare clic per modificare i dettagli di questo motore di ricerca">
+<!ENTITY wspro.settings.searchengines.selected.remove "Fare clic per eliminare questo motore di ricerca">
+<!ENTITY wspro.settings.searchengines.selected.report "Fare clic per segnalare all&apos;autore dell&apos;estensione che questo motore di ricerca non funziona">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Fare clic per ordinare in ordine crescente i motori di ricerca selezionati">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Fare clic per ordinare in ordine decrescente i motori di ricerca selezionati">
+<!ENTITY wspro.settings.searchengines.selected.update "Fare clic per aggiornare ora i motori di ricerca">
+<!ENTITY wspro.tools.accesskey "C">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Digitare i termini da trovare nel campo di ricerca, quindi premere Cerca">
+<!ENTITY wspro.toolbar.toggledend "Zone di trascinamento e rilascio">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Attiva/disattiva le zone di trascinamento e rilascio">
+<!ENTITY wspro.searchall.movie.tooltip "Cerca in tutti i siti per film selezionati">
+<!ENTITY wspro.searchall.music.tooltip "Cerca in tutti i siti per musica selezionati">
+<!ENTITY wspro.searchall.other.tooltip "Cerca in tutti gli altri siti selezionati">
+<!ENTITY wspro.searchall.computer.tooltip "Cerca in tutti i siti per computer / tecnologia selezionati">
+<!ENTITY wspro.searchall.education.tooltip "Cerca in tutti i siti per formazione selezionati">
+<!ENTITY wspro.searchall.news.tooltip "Cerca in tutti i siti per notizie selezionati">
+<!ENTITY wspro.searchall.reference.tooltip "Cerca in tutti i siti per riferimenti / dizionari selezionati">
+<!ENTITY wspro.searchall.shopping.tooltip "Cerca in tutti i siti per acquisti selezionati">
+<!ENTITY wspro.searchall.business.tooltip "Cerca in tutti i siti per affari selezionati">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Icona">
+<!ENTITY wspro.searchengine.shortcut "Scorciatoia da tastiera">
+<!ENTITY wspro.searchengine.browse "Sfoglia…">
+<!ENTITY wspro.searchengine.dropzones.info "Una zona di trascinamento e rilascio è un&apos;area della finestra del browser dove si può trascinare il testo per iniziare una ricerca. È possibile selezionare più zone per motore di ricerca">
+<!ENTITY wspro.searchengine.dropzones.info.size "È possibile utilizzare 16, 36 o 64 aree di trascinamento e rilascio (maggiori saranno meno zone di trascinamento e rilascio conterranno) selezionando le aree qui sotto tratteggiate in rosso">
+<!ENTITY wspro.searchengine.autosuggest "Suggerisci per Web Search Pro…">
+<!ENTITY wspro.context.editsearchengine "Modifica questo motore di ricerca">
+<!ENTITY wspro.context.removesearchengine "Elimina questo motore di ricerca">
+<!ENTITY wspro.settings.searchenginegroups "Gruppi di motori di ricerca">
+<!ENTITY wspro.settings.searchenginegroups.edit "Modifica questo gruppo di motori di ricerca">
+<!ENTITY wspro.settings.searchenginegroups.remove "Elimina questo gruppo di motori di ricerca">
+<!ENTITY wspro.settings.searchenginegroups.add "Aggiunge un nuovo gruppo di motori di ricerca">
+<!ENTITY wspro.settings.searchengines.getengines "Altri motori di ricerca…">
+<!ENTITY wspro-qts-title "Ricerca rapida">
+<!ENTITY wspro-qts-searchengine "Cerca con">
+<!ENTITY wspro-qts-searchtext "Cerca">
+<!ENTITY wspro.settings.qts.color "Colore di sfondo per il pop-up di ricerca rapida">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Aggiungi come motore di ricerca privato…">
+<!ENTITY wspro.qts.search "Cerca">
+<!ENTITY wspro.qts.search.accesskey "C">
+<!ENTITY wspro.qts.clear "Svuota">
+<!ENTITY wspro.qts.clear.accesskey "S">

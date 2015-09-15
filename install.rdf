@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+ <Description about="urn:mozilla:install-manifest">
+ 
+   <em:id>{8B8A525A-CFCA-44cf-81C3-3969E6CB96E0}</em:id>
+   <em:name>Web Search Pro</em:name>
+   <em:version>3.0.7.1-signed</em:version>
+   <em:description>Search the web the way you like.</em:description>
+   <em:creator>Martijn Kooij</em:creator>
+   <em:homepageURL>http://websearchpro.captaincaveman.nl</em:homepageURL>
+   <em:iconURL>chrome://websearchpro/skin/websearchpro.png</em:iconURL>
+   <em:optionsURL>chrome://websearchpro/content/websearchprosettings.xul</em:optionsURL>
+   <em:type>2</em:type>
+
+   <em:contributor>Thanks to LXweb.nl for the GraphX</em:contributor>
+   <em:contributor>Thanks to babelzilla.org for the great l10n service you provide</em:contributor>
+   <em:contributor>Thanks to Xu Han for your inspiration and beta testing</em:contributor>
+   <em:contributor>Ben Goodger (Google Suggest Autocomplete Implementation)</em:contributor>
+   <em:contributor>Mike Connor (Google Suggest Autocomplete Implementation)</em:contributor>
+   <em:contributor>-</em:contributor>
+   <em:contributor>Dimas Streich i Colomeda (ca-AD)</em:contributor>
+   <em:contributor>Chuzo (es-ES version 1.5x and later)</em:contributor>
+   <em:contributor>Cristóbal Donoso Macaya (es-ES until version 1.4)</em:contributor>
+   <em:contributor>MatrixIsAllOver, L0stintranslation (it-IT)</em:contributor>
+   <em:contributor>Fenian, ReinekeFux (de)</em:contributor>
+   <em:contributor>AYK (pt-BR) (until version 2.5)</em:contributor>
+   <em:contributor>Victory, Seabow (ja-JP until version 2.5)</em:contributor>
+   <em:contributor>keiji (ja-JP)</em:contributor>
+   <em:contributor>Goofy (fr)</em:contributor>
+   <em:contributor>Batuhan Çetin, ErkanKaplan (tr-TR)</em:contributor>
+   <em:contributor>MorZilla (es-AR)</em:contributor>
+   <em:contributor>SlovakSoft (sk-SK)</em:contributor>
+   <em:contributor>Zefranc (pt-PT)</em:contributor>
+   <em:contributor>AlleyKat (da)</em:contributor>
+   <em:contributor>Fang5566 (zh-CN)</em:contributor>
+   <em:contributor>Sergeys (ru-RU)</em:contributor>
+   <em:contributor>Sergey Khoruzhin (uk-UA)</em:contributor>
+   <em:contributor>leuce (af-ZA)</em:contributor>
+   <em:contributor>Krcko (hr-HR)</em:contributor>
+   <em:contributor>StiffeL (sv-SE)</em:contributor>
+   <em:contributor>netaras (ko-KR)</em:contributor>
+   <em:contributor>jackbin (zh-TW)</em:contributor>   
+   <em:contributor>chicus (pt-BR version 2.7.x and later)</em:contributor>
+   <em:contributor>KietnaQuTak (pl)</em:contributor>
+
+   <!-- Firefox -->
+   <em:targetApplication>
+     <Description>
+     <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+     <em:minVersion>4.0</em:minVersion>
+     <em:maxVersion>14.0a1</em:maxVersion>
+     </Description>
+   </em:targetApplication>
+ </Description>
+
+</RDF>

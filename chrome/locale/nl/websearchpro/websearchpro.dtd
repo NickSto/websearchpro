@@ -1,0 +1,114 @@
+<!ENTITY mmsearch.name "Web Search Pro">
+<!ENTITY mmsearch.menuitem.mmsearch-context "Web Search Pro">
+<!ENTITY wspro.options.title "Web Search Pro - Zoekmachines &amp; Instellingen">
+<!ENTITY wspro.menuitem.options "Zoekmachines &amp; Instellingen">
+<!ENTITY wspro.menuitem.qts "Quick Type Search Copy">
+<!ENTITY wspro.menuitem.qts.tooltip "Open het Quick Type Search popup scherm">
+<!ENTITY wspro.menuitem.qts.accesskey "Q">
+<!ENTITY mmsearch.settings.free.name "Omschrijving:">
+<!ENTITY mmsearch.settings.free.url "URL:">
+<!ENTITY mmsearch.settings.free.type "Type:">
+<!ENTITY mmsearch.settings.free.type.music "Muziek">
+<!ENTITY mmsearch.settings.free.type.movies "Films">
+<!ENTITY mmsearch.settings.free.type.other "Overige">
+<!ENTITY mmsearch.settings.free.type.computer "Computers / Technologie">
+<!ENTITY mmsearch.settings.free.type.education "Opleiding / Ontwikkeling">
+<!ENTITY mmsearch.settings.free.type.news "Nieuws">
+<!ENTITY mmsearch.settings.free.type.reference "Naslag / Woordenboeken">
+<!ENTITY mmsearch.settings.free.type.shopping "Winkels">
+<!ENTITY mmsearch.settings.free.type.business "Zakelijk">
+<!ENTITY mmsearch.search "Zoeken">
+<!ENTITY mmsearch.settings.free.available.suggestsearchengine "Doe een suggestie voor een nieuwe zoekmachine">
+<!ENTITY mmsearch.settings.free.available.private "Voeg een privé zoekmachine toe">
+<!ENTITY mmsearch.settings.free.available.loading "Bezig met laden...">
+<!ENTITY mmsearch.settings.free.available.clicktoload "Toon Zoekmachines">
+<!ENTITY wspro.settings.general "Algemeen">
+<!ENTITY wspro.settings.general.search "Zoek Opties">
+<!ENTITY wspro.settings.general.search.clearsearchbox "Verwijder de zoekopdracht uit de textbox na elke zoekactie">
+<!ENTITY wspro.settings.general.search.reuseopenedtabs "Hergebruik tabbladen geopend door Web Search Pro">
+<!ENTITY wspro.settings.general.search.searchonengineswitch "Start de zoekopdracht na het schakelen van zoekmachine op de toolbar">
+<!ENTITY wspro.settings.general.search.searchondrop "Start uw zoekopdracht na het droppen of plakken van tekst in de Web Search Pro toolbar">
+<!ENTITY wspro.settings.general.search.useqtsinsteadoftoolbar "Gebruik het Quick Type Search popup venster in plaats van de toolbar bij het drukken op een sneltoets">
+<!ENTITY wspro.settings.general.search.results "Zoekresultaten">
+<!ENTITY wspro.settings.general.search.resultsinnewtab "Open zoekresultaten in een nieuw tabblad">
+<!ENTITY wspro.settings.general.search.loadsearchtabsinforeground "Toon door Web Search Pro geopende tabbladen op de voorgrond">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.cm "Open zoekresultaten in een nieuw tabblad als ik zoek vanuit het context menu">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.dend "Open zoekresultaten in een nieuw tabblad als ik zoek met Drag &amp; Dropzones">
+<!ENTITY wspro.settings.general.search.resultsinnewtab.qts "Open zoekresultaten in een nieuw tabblad als ik zoek met Quick Type Search">
+<!ENTITY wspro.settings.general.display.other "Overige Weergave Opties">
+<!ENTITY wspro.settings.general.display.hide "Items verbergen (voor sommige items is het nodig uw browser opnieuw op te starten)">
+<!ENTITY wspro.settings.general.display.hide.firefoxsearch "Verberg de standaard Firefox Web Search items (Pas uw toolbars aan om deze weer terug te brengen)">
+<!ENTITY wspro.settings.general.display.hide.wsprotools "Verberg Web Search Pro in het Extra menu">
+<!ENTITY wspro.settings.general.display.hide.wsprocontext "Verberg Web Search Pro in het context menu">
+<!ENTITY wspro.settings.general.display.hide.wsprostatusbar "Verberg Web Search Pro op uw statusbar">
+<!ENTITY wspro.settings.general.display.hide.wsproresizer "Verberg de Web Search Pro toolbar resizer">
+<!ENTITY wspro.settings.general.display.hide.wsprosystemgroups "Verberg de standaard Web Search Pro zoekmachine groepen (alleen lege groepen)">
+<!ENTITY wspro.settings.general.display.hide.hidecurrentselabel "Verberg het label van de huidige zoekmachine in de toolbar">
+<!ENTITY wspro.settings.general.display.autosort "Zoekmachines automatisch alfabetisch sorteren">
+<!ENTITY wspro.settings.general.display.relabeltabs "Toon mijn zoektermen in de tabs die door Web Search Pro geopend zijn">
+<!ENTITY wspro.settings.general.display.menustyle "Hoe wilt u uw zoekmachines tonen?">
+<!ENTITY wspro.settings.general.display.menustyle.flat "Plat, gewoon een lijst met de zoekmachines die ik heb geselecteerd">
+<!ENTITY wspro.settings.general.display.menustyle.group "Gegroepeerd, een submenu voor elk type zoekmachine">
+<!ENTITY wspro.settings.general.display.menustyle.list "Gescheiden lijst, een platte lijst maar met koptekst voor elk type zoekmachine">
+<!ENTITY wspro.settings.general.display.googlesuggest "Gebruik Google Suggest om suggesties te tonen terwijl je typt">
+<!ENTITY wspro.settings.general.connection "Instellingen voor de verbinding">
+<!ENTITY wspro.settings.general.connection.autoupdate "Update automatisch je Zoekmachines elke 14 dagen">
+<!ENTITY wspro.settings.general.export "Exporteer instellingen">
+<!ENTITY wspro.settings.general.import "Importeer instellingen">
+<!ENTITY wspro.settings.general.defaultse "Standaard Zoekmachine">
+<!ENTITY wspro.settings.general.defaultse.info "Schakel na elke zoekopdracht terug naar de volgende Zoekmachine">
+<!ENTITY wspro.settings.display "Weergave">
+<!ENTITY wspro.settings.dropzones "Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.usedropzones "Gebruik Drag &amp; DropZones">
+<!ENTITY wspro.settings.dropzones.showunassigneddropzones "Toon DropZones waar geen zoekmachine aan gekoppeld is">
+<!ENTITY wspro.settings.dropzones.color "Kleur">
+<!ENTITY wspro.settings.dropzones.trailstyle "Spoor stijl">
+<!ENTITY wspro.settings.dropzones.trailstyle.fade "Vervagen">
+<!ENTITY wspro.settings.dropzones.trailstyle.once "Enkel">
+<!ENTITY wspro.settings.dropzones.trailstyle.none "Geen">
+<!ENTITY wspro.settings.dropzones.assign "Koppel zoekmachines aan Drag &amp; DropZones">
+<!ENTITY wspro.settings.searchengines "Zoekmachines">
+<!ENTITY wspro.settings.searchengines.selected "Geselecteerde Zoekmachines">
+<!ENTITY wspro.settings.searchengines.selected.editsearchengine "Klik om de details van deze zoekmachine aan te passen">
+<!ENTITY wspro.settings.searchengines.selected.remove "Klik om deze zoekmachine te verwijderen">
+<!ENTITY wspro.settings.searchengines.selected.report "Klik om Captain Caveman te melden dat deze zoekmachine niet (meer) werkt">
+<!ENTITY wspro.settings.searchengines.selected.sortaz "Klik om de zoekmachines oplopend te sorteren">
+<!ENTITY wspro.settings.searchengines.selected.sortza "Klik om de zoekmachines aflopend te sorteren">
+<!ENTITY wspro.settings.searchengines.selected.update "Klik om je geselecteerde Zoekmachines nu te updaten">
+<!ENTITY wspro.tools.accesskey "S">
+<!ENTITY wspro.toolbar.searchbutton "Web Search Pro">
+<!ENTITY wspro.toolbar.search.tooltip "Type een zoekopdracht in de textbox, en druk op Zoeken">
+<!ENTITY wspro.toolbar.toggledend "Drag &amp; DropZones">
+<!ENTITY wspro.toolbar.toggledend.tooltip "Schakel Drag &amp; DropZones In of Uit">
+<!ENTITY wspro.searchall.movie.tooltip "Zoek op alle geselecteerde Film websites">
+<!ENTITY wspro.searchall.music.tooltip "Zoek op alle geselecteerde Muziek websites">
+<!ENTITY wspro.searchall.other.tooltip "Zoek op alle geselecteerde Overige websites">
+<!ENTITY wspro.searchall.computer.tooltip "Zoek op alle geselecteerde Computer / Technologie websites">
+<!ENTITY wspro.searchall.education.tooltip "Zoek op alle geselecteerde Opleiding / Ontwikkeling websites">
+<!ENTITY wspro.searchall.news.tooltip "Zoek op alle geselecteerde Nieuws websites">
+<!ENTITY wspro.searchall.reference.tooltip "Zoek op alle geselecteerde Naslag / Woordenboeken websites">
+<!ENTITY wspro.searchall.shopping.tooltip "Zoek op alle geselecteerde Winkel websites">
+<!ENTITY wspro.searchall.business.tooltip "Zoek op alle geselecteerde Zakelijke websites">
+<!ENTITY wspro.searchengine.id "ID">
+<!ENTITY wspro.searchengine.favicon "Pictogram">
+<!ENTITY wspro.searchengine.shortcut "Sneltoets">
+<!ENTITY wspro.searchengine.browse "Bladeren">
+<!ENTITY wspro.searchengine.dropzones.info "Een Drag &amp; DropZone is een gebied in uw browser waar je tekst heen kan slepen om een zoekopdracht te starten. Je kan zoveel zones per zoekmachine selecteren als je wilt.">
+<!ENTITY wspro.searchengine.dropzones.info.size "Selecteer je DropZones binnen de rode stippel lijn om automatisch grotere maar minder DropZones te gebruiken. Je kan kiezen uit 16, 36 of 64 DropZones.">
+<!ENTITY wspro.searchengine.autosuggest "Stel voor voor Web Search Pro...">
+<!ENTITY wspro.context.editsearchengine "Pas deze Zoekmachine aan">
+<!ENTITY wspro.context.removesearchengine "Verwijder deze Zoekmachine">
+<!ENTITY wspro.settings.searchenginegroups "Zoekmachine groepen">
+<!ENTITY wspro.settings.searchenginegroups.edit "Wijzig deze zoekmachine groep">
+<!ENTITY wspro.settings.searchenginegroups.remove "Verwijder deze zoekmachine groep">
+<!ENTITY wspro.settings.searchenginegroups.add "Voeg een nieuwe zoekmachine groep toe">
+<!ENTITY wspro.settings.searchengines.getengines "Meer zoekmachines kiezen...">
+<!ENTITY wspro-qts-title "Web Search Pro - Quick Type Search">
+<!ENTITY wspro-qts-searchengine "Zoek met">
+<!ENTITY wspro-qts-searchtext "Zoek naar">
+<!ENTITY wspro.settings.qts.color "Achtergrondkleur voor het Quick Type Search popup venster">
+<!ENTITY wspro.searchengine.autoprivatesuggest "Voeg als privé zoekmachine toe...">
+<!ENTITY wspro.qts.search "Zoeken">
+<!ENTITY wspro.qts.search.accesskey "Z">
+<!ENTITY wspro.qts.clear "Reset">
+<!ENTITY wspro.qts.clear.accesskey "R">
