@@ -639,18 +639,16 @@ SuggestAutoComplete.prototype = {
 
     //var engine = searchService.currentEngine; 
     //this._checkForEngineSwitch(engine);
-	var engine, oURI; 
-	var oEngines = searchService.getEngines({}); 
-	var iIndex, iLen = oEngines.length; 
-	for (iIndex = 0; iIndex < iLen; iIndex ++) 
-	{
-		engine = oEngines[iIndex]; 
-		if (engine.wrappedJSObject._id && engine.wrappedJSObject._id.indexOf('google') >= 0) 
-		{ 
-			oURI = engine.wrappedJSObject._getURLOfType("application/x-suggestions+json"); 
-			if (oURI) break; 
-		} 
-	}
+    var engine, oURI; 
+    var oEngines = searchService.getEngines({}); 
+    var iIndex, iLen = oEngines.length; 
+    for (iIndex = 0; iIndex < iLen; iIndex ++)  {
+        engine = oEngines[iIndex]; 
+        if (engine.identifier && engine.identifier.indexOf('google') >= 0)  { 
+            oURI = engine.wrappedJSObject._getURLOfType("application/x-suggestions+json"); 
+            if (oURI) break; 
+        } 
+    }
 
     if (!searchString ||
         !this._suggestEnabled ||
@@ -787,4 +785,3 @@ function NSGetModule(compMgr, fileSpec) {
 try {//Firefox 4
 var NSGetFactory = XPCOMUtils.generateNSGetFactory(component);
 } catch (e) {}
-
